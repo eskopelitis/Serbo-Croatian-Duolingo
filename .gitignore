@@ -1,0 +1,35 @@
+# Secrets and local settings.
+.env
+.env.*
+!.env.example
+.claude/
+opencode.json
+
+# Learner data: the local database, its SQLite sidecars and daily backups.
+*.sqlite
+*.sqlite3
+*.sqlite-*
+*.sqlite3-*
+*.db
+*.db-*
+data/backups/
+# Talk recordings (your voice) stay local.
+data/stt_takes/
+
+# Logs, process files, local HTTPS cert + key.
+*.log
+*.pid
+*.pem
+*.key
+*.p12
+*.pfx
+data/https/
+
+# Downloaded voice models and runtimes.
+voices/
+external/
+
+__pycache__/
+*.pyc
+scratch_*
+*.bak

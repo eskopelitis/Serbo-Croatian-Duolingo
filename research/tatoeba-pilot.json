@@ -1,0 +1,465 @@
+{
+  "schema_version": 1,
+  "title": "Tatoeba attributed sentence pilot",
+  "snapshot_date": "2026-11-19",
+  "corpus": "Tatoeba",
+  "description": "Thirteen manually selected, directly linked sentence pairs. Source language is the contributor-provided corpus label, not proof of geography or all accepted variants. No audio.",
+  "license": "CC BY 2.0 FR",
+  "license_url": "https://creativecommons.org/licenses/by/2.0/fr/",
+  "attribution_instructions": "When displaying or redistributing, attribute both sides to their original contributors and Tatoeba, include each sentence URL and the license URL, and indicate modifications. The export owner is separately preserved because it can differ from the initial contributor.",
+  "verification": "Pairs were checked in the weekly links export, license and initial contributor on each original sentence page, and texts visually reviewed for simple meaning; no native-speaker review has been completed.",
+  "archives": {
+    "srp": {
+      "url": "https://downloads.tatoeba.org/exports/per_language/srp/srp_sentences_detailed.tsv.bz2",
+      "sha256": "1a6a43c808ce6b8b769adbc96d2fcc53a85d60173d0ca4fc7854b4abd75004b9"
+    },
+    "hrv": {
+      "url": "https://downloads.tatoeba.org/exports/per_language/hrv/hrv_sentences_detailed.tsv.bz2",
+      "sha256": "3a76f8c28526b088abe5b0b2fbab569fbb8af88f1d4617e63aa30d974b358112"
+    },
+    "bos": {
+      "url": "https://downloads.tatoeba.org/exports/per_language/bos/bos_sentences_detailed.tsv.bz2",
+      "sha256": "c7f4e059f00a72cf76f805cb964808b7b5b7658d376516a7abb779cb04cdefc1"
+    },
+    "eng": {
+      "url": "https://downloads.tatoeba.org/exports/per_language/eng/eng_sentences_detailed.tsv.bz2",
+      "sha256": "f3a08a0af8deef3f50777cf0ccd7666f39e619f70fadae4327b7c29119468313"
+    },
+    "links": {
+      "url": "https://downloads.tatoeba.org/exports/links.tar.bz2",
+      "sha256": "08a802bfee9242fe2476836ec94e180588149f047451bce7519331b871b19e4f"
+    }
+  },
+  "entries": [
+    {
+      "id": "tatoeba-466190-373330",
+      "corpus": "Tatoeba",
+      "source_corpus_language": "Bosnian",
+      "script": "Latn",
+      "ekavian_ijekavian": null,
+      "source": {
+        "id": 466190,
+        "language_code": "bos",
+        "text": "Zdravo.",
+        "source_url": "https://tatoeba.org/en/sentences/show/466190",
+        "original_contributor": "FeuDRenais",
+        "original_contributor_url": "https://tatoeba.org/en/user/profile/FeuDRenais",
+        "export_owner": "FeuDRenais",
+        "export_owner_url": "https://tatoeba.org/en/user/profile/FeuDRenais",
+        "license": "CC BY 2.0 FR",
+        "license_url": "https://creativecommons.org/licenses/by/2.0/fr/"
+      },
+      "translation": {
+        "id": 373330,
+        "language_code": "eng",
+        "text": "Hello!",
+        "source_url": "https://tatoeba.org/en/sentences/show/373330",
+        "original_contributor": "boracasli",
+        "original_contributor_url": "https://tatoeba.org/en/user/profile/boracasli",
+        "export_owner": "CK",
+        "export_owner_url": "https://tatoeba.org/en/user/profile/CK",
+        "license": "CC BY 2.0 FR",
+        "license_url": "https://creativecommons.org/licenses/by/2.0/fr/"
+      },
+      "usage_note": "Informal greeting.",
+      "review_status": "editorially_selected_not_native_verified"
+    },
+    {
+      "id": "tatoeba-468745-392210",
+      "corpus": "Tatoeba",
+      "source_corpus_language": "Bosnian",
+      "script": "Latn",
+      "ekavian_ijekavian": null,
+      "source": {
+        "id": 468745,
+        "language_code": "bos",
+        "text": "Šta je ovo?",
+        "source_url": "https://tatoeba.org/en/sentences/show/468745",
+        "original_contributor": "FeuDRenais",
+        "original_contributor_url": "https://tatoeba.org/en/user/profile/FeuDRenais",
+        "export_owner": "FeuDRenais",
+        "export_owner_url": "https://tatoeba.org/en/user/profile/FeuDRenais",
+        "license": "CC BY 2.0 FR",
+        "license_url": "https://creativecommons.org/licenses/by/2.0/fr/"
+      },
+      "translation": {
+        "id": 392210,
+        "language_code": "eng",
+        "text": "What is this?",
+        "source_url": "https://tatoeba.org/en/sentences/show/392210",
+        "original_contributor": "sysko",
+        "original_contributor_url": "https://tatoeba.org/en/user/profile/sysko",
+        "export_owner": "sysko",
+        "export_owner_url": "https://tatoeba.org/en/user/profile/sysko",
+        "license": "CC BY 2.0 FR",
+        "license_url": "https://creativecommons.org/licenses/by/2.0/fr/"
+      },
+      "usage_note": "",
+      "review_status": "editorially_selected_not_native_verified"
+    },
+    {
+      "id": "tatoeba-478741-477086",
+      "corpus": "Tatoeba",
+      "source_corpus_language": "Bosnian",
+      "script": "Latn",
+      "ekavian_ijekavian": null,
+      "source": {
+        "id": 478741,
+        "language_code": "bos",
+        "text": "Da.",
+        "source_url": "https://tatoeba.org/en/sentences/show/478741",
+        "original_contributor": "FeuDRenais",
+        "original_contributor_url": "https://tatoeba.org/en/user/profile/FeuDRenais",
+        "export_owner": "FeuDRenais",
+        "export_owner_url": "https://tatoeba.org/en/user/profile/FeuDRenais",
+        "license": "CC BY 2.0 FR",
+        "license_url": "https://creativecommons.org/licenses/by/2.0/fr/"
+      },
+      "translation": {
+        "id": 477086,
+        "language_code": "eng",
+        "text": "Yes.",
+        "source_url": "https://tatoeba.org/en/sentences/show/477086",
+        "original_contributor": "boracasli",
+        "original_contributor_url": "https://tatoeba.org/en/user/profile/boracasli",
+        "export_owner": "soweli_Elepanto",
+        "export_owner_url": "https://tatoeba.org/en/user/profile/soweli_Elepanto",
+        "license": "CC BY 2.0 FR",
+        "license_url": "https://creativecommons.org/licenses/by/2.0/fr/"
+      },
+      "usage_note": "",
+      "review_status": "editorially_selected_not_native_verified"
+    },
+    {
+      "id": "tatoeba-11185462-2795088",
+      "corpus": "Tatoeba",
+      "source_corpus_language": "Bosnian",
+      "script": "Latn",
+      "ekavian_ijekavian": null,
+      "source": {
+        "id": 11185462,
+        "language_code": "bos",
+        "text": "Trebam pomoć!",
+        "source_url": "https://tatoeba.org/en/sentences/show/11185462",
+        "original_contributor": "Boshnjanin",
+        "original_contributor_url": "https://tatoeba.org/en/user/profile/Boshnjanin",
+        "export_owner": "Boshnjanin",
+        "export_owner_url": "https://tatoeba.org/en/user/profile/Boshnjanin",
+        "license": "CC BY 2.0 FR",
+        "license_url": "https://creativecommons.org/licenses/by/2.0/fr/"
+      },
+      "translation": {
+        "id": 2795088,
+        "language_code": "eng",
+        "text": "I need help!",
+        "source_url": "https://tatoeba.org/en/sentences/show/2795088",
+        "original_contributor": "learnaspossible",
+        "original_contributor_url": "https://tatoeba.org/en/user/profile/learnaspossible",
+        "export_owner": "megamanenm",
+        "export_owner_url": "https://tatoeba.org/en/user/profile/megamanenm",
+        "license": "CC BY 2.0 FR",
+        "license_url": "https://creativecommons.org/licenses/by/2.0/fr/"
+      },
+      "usage_note": "The source is labeled Bosnian in Tatoeba; usage is not confined to one standard.",
+      "review_status": "editorially_selected_not_native_verified"
+    },
+    {
+      "id": "tatoeba-1057619-378270",
+      "corpus": "Tatoeba",
+      "source_corpus_language": "Croatian",
+      "script": "Latn",
+      "ekavian_ijekavian": null,
+      "source": {
+        "id": 1057619,
+        "language_code": "hrv",
+        "text": "Govorite li engleski?",
+        "source_url": "https://tatoeba.org/en/sentences/show/1057619",
+        "original_contributor": "akvo",
+        "original_contributor_url": "https://tatoeba.org/en/user/profile/akvo",
+        "export_owner": "akvo",
+        "export_owner_url": "https://tatoeba.org/en/user/profile/akvo",
+        "license": "CC BY 2.0 FR",
+        "license_url": "https://creativecommons.org/licenses/by/2.0/fr/"
+      },
+      "translation": {
+        "id": 378270,
+        "language_code": "eng",
+        "text": "Do you speak English?",
+        "source_url": "https://tatoeba.org/en/sentences/show/378270",
+        "original_contributor": "saeb",
+        "original_contributor_url": "https://tatoeba.org/en/user/profile/saeb",
+        "export_owner": "saeb",
+        "export_owner_url": "https://tatoeba.org/en/user/profile/saeb",
+        "license": "CC BY 2.0 FR",
+        "license_url": "https://creativecommons.org/licenses/by/2.0/fr/"
+      },
+      "usage_note": "Formal or plural you.",
+      "review_status": "editorially_selected_not_native_verified"
+    },
+    {
+      "id": "tatoeba-1100756-349064",
+      "corpus": "Tatoeba",
+      "source_corpus_language": "Croatian",
+      "script": "Latn",
+      "ekavian_ijekavian": null,
+      "source": {
+        "id": 1100756,
+        "language_code": "hrv",
+        "text": "Ne znam.",
+        "source_url": "https://tatoeba.org/en/sentences/show/1100756",
+        "original_contributor": "vlado",
+        "original_contributor_url": "https://tatoeba.org/en/user/profile/vlado",
+        "export_owner": "vlado",
+        "export_owner_url": "https://tatoeba.org/en/user/profile/vlado",
+        "license": "CC BY 2.0 FR",
+        "license_url": "https://creativecommons.org/licenses/by/2.0/fr/"
+      },
+      "translation": {
+        "id": 349064,
+        "language_code": "eng",
+        "text": "I don't know.",
+        "source_url": "https://tatoeba.org/en/sentences/show/349064",
+        "original_contributor": "fatih",
+        "original_contributor_url": "https://tatoeba.org/en/user/profile/fatih",
+        "export_owner": "fatih",
+        "export_owner_url": "https://tatoeba.org/en/user/profile/fatih",
+        "license": "CC BY 2.0 FR",
+        "license_url": "https://creativecommons.org/licenses/by/2.0/fr/"
+      },
+      "usage_note": "",
+      "review_status": "editorially_selected_not_native_verified"
+    },
+    {
+      "id": "tatoeba-6402544-329713",
+      "corpus": "Tatoeba",
+      "source_corpus_language": "Croatian",
+      "script": "Latn",
+      "ekavian_ijekavian": null,
+      "source": {
+        "id": 6402544,
+        "language_code": "hrv",
+        "text": "Dobro jutro!",
+        "source_url": "https://tatoeba.org/en/sentences/show/6402544",
+        "original_contributor": "Balamax",
+        "original_contributor_url": "https://tatoeba.org/en/user/profile/Balamax",
+        "export_owner": "Balamax",
+        "export_owner_url": "https://tatoeba.org/en/user/profile/Balamax",
+        "license": "CC BY 2.0 FR",
+        "license_url": "https://creativecommons.org/licenses/by/2.0/fr/"
+      },
+      "translation": {
+        "id": 329713,
+        "language_code": "eng",
+        "text": "Good morning!",
+        "source_url": "https://tatoeba.org/en/sentences/show/329713",
+        "original_contributor": "YURY0608",
+        "original_contributor_url": "https://tatoeba.org/en/user/profile/YURY0608",
+        "export_owner": "YURY0608",
+        "export_owner_url": "https://tatoeba.org/en/user/profile/YURY0608",
+        "license": "CC BY 2.0 FR",
+        "license_url": "https://creativecommons.org/licenses/by/2.0/fr/"
+      },
+      "usage_note": "",
+      "review_status": "editorially_selected_not_native_verified"
+    },
+    {
+      "id": "tatoeba-12212580-2132096",
+      "corpus": "Tatoeba",
+      "source_corpus_language": "Croatian",
+      "script": "Latn",
+      "ekavian_ijekavian": null,
+      "source": {
+        "id": 12212580,
+        "language_code": "hrv",
+        "text": "Vodu, molim.",
+        "source_url": "https://tatoeba.org/en/sentences/show/12212580",
+        "original_contributor": "Adelpa",
+        "original_contributor_url": "https://tatoeba.org/en/user/profile/Adelpa",
+        "export_owner": "Adelpa",
+        "export_owner_url": "https://tatoeba.org/en/user/profile/Adelpa",
+        "license": "CC BY 2.0 FR",
+        "license_url": "https://creativecommons.org/licenses/by/2.0/fr/"
+      },
+      "translation": {
+        "id": 2132096,
+        "language_code": "eng",
+        "text": "Water, please.",
+        "source_url": "https://tatoeba.org/en/sentences/show/2132096",
+        "original_contributor": "AlanF_US",
+        "original_contributor_url": "https://tatoeba.org/en/user/profile/AlanF_US",
+        "export_owner": "AlanF_US",
+        "export_owner_url": "https://tatoeba.org/en/user/profile/AlanF_US",
+        "license": "CC BY 2.0 FR",
+        "license_url": "https://creativecommons.org/licenses/by/2.0/fr/"
+      },
+      "usage_note": "",
+      "review_status": "editorially_selected_not_native_verified"
+    },
+    {
+      "id": "tatoeba-12585725-426950",
+      "corpus": "Tatoeba",
+      "source_corpus_language": "Croatian",
+      "script": "Latn",
+      "ekavian_ijekavian": null,
+      "source": {
+        "id": 12585725,
+        "language_code": "hrv",
+        "text": "Laku noć!",
+        "source_url": "https://tatoeba.org/en/sentences/show/12585725",
+        "original_contributor": "Adelpa",
+        "original_contributor_url": "https://tatoeba.org/en/user/profile/Adelpa",
+        "export_owner": "Adelpa",
+        "export_owner_url": "https://tatoeba.org/en/user/profile/Adelpa",
+        "license": "CC BY 2.0 FR",
+        "license_url": "https://creativecommons.org/licenses/by/2.0/fr/"
+      },
+      "translation": {
+        "id": 426950,
+        "language_code": "eng",
+        "text": "Good night!",
+        "source_url": "https://tatoeba.org/en/sentences/show/426950",
+        "original_contributor": "Pun_intended",
+        "original_contributor_url": "https://tatoeba.org/en/user/profile/Pun_intended",
+        "export_owner": "Pun_intended",
+        "export_owner_url": "https://tatoeba.org/en/user/profile/Pun_intended",
+        "license": "CC BY 2.0 FR",
+        "license_url": "https://creativecommons.org/licenses/by/2.0/fr/"
+      },
+      "usage_note": "",
+      "review_status": "editorially_selected_not_native_verified"
+    },
+    {
+      "id": "tatoeba-3264437-1839531",
+      "corpus": "Tatoeba",
+      "source_corpus_language": "Serbian",
+      "script": "Latn",
+      "ekavian_ijekavian": null,
+      "source": {
+        "id": 3264437,
+        "language_code": "srp",
+        "text": "Gladan sam.",
+        "source_url": "https://tatoeba.org/en/sentences/show/3264437",
+        "original_contributor": "neron",
+        "original_contributor_url": "https://tatoeba.org/en/user/profile/neron",
+        "export_owner": "neron",
+        "export_owner_url": "https://tatoeba.org/en/user/profile/neron",
+        "license": "CC BY 2.0 FR",
+        "license_url": "https://creativecommons.org/licenses/by/2.0/fr/"
+      },
+      "translation": {
+        "id": 1839531,
+        "language_code": "eng",
+        "text": "I'm hungry.",
+        "source_url": "https://tatoeba.org/en/sentences/show/1839531",
+        "original_contributor": "CK",
+        "original_contributor_url": "https://tatoeba.org/en/user/profile/CK",
+        "export_owner": "CK",
+        "export_owner_url": "https://tatoeba.org/en/user/profile/CK",
+        "license": "CC BY 2.0 FR",
+        "license_url": "https://creativecommons.org/licenses/by/2.0/fr/"
+      },
+      "usage_note": "Masculine speaker.",
+      "review_status": "editorially_selected_not_native_verified"
+    },
+    {
+      "id": "tatoeba-3384160-360558",
+      "corpus": "Tatoeba",
+      "source_corpus_language": "Serbian",
+      "script": "Latn",
+      "ekavian_ijekavian": null,
+      "source": {
+        "id": 3384160,
+        "language_code": "srp",
+        "text": "Vidimo se kasnije!",
+        "source_url": "https://tatoeba.org/en/sentences/show/3384160",
+        "original_contributor": "neron",
+        "original_contributor_url": "https://tatoeba.org/en/user/profile/neron",
+        "export_owner": "neron",
+        "export_owner_url": "https://tatoeba.org/en/user/profile/neron",
+        "license": "CC BY 2.0 FR",
+        "license_url": "https://creativecommons.org/licenses/by/2.0/fr/"
+      },
+      "translation": {
+        "id": 360558,
+        "language_code": "eng",
+        "text": "See you later!",
+        "source_url": "https://tatoeba.org/en/sentences/show/360558",
+        "original_contributor": "Kazune",
+        "original_contributor_url": "https://tatoeba.org/en/user/profile/Kazune",
+        "export_owner": "Kazune",
+        "export_owner_url": "https://tatoeba.org/en/user/profile/Kazune",
+        "license": "CC BY 2.0 FR",
+        "license_url": "https://creativecommons.org/licenses/by/2.0/fr/"
+      },
+      "usage_note": "Informal farewell.",
+      "review_status": "editorially_selected_not_native_verified"
+    },
+    {
+      "id": "tatoeba-3791345-497969",
+      "corpus": "Tatoeba",
+      "source_corpus_language": "Serbian",
+      "script": "Cyrl",
+      "ekavian_ijekavian": null,
+      "source": {
+        "id": 3791345,
+        "language_code": "srp",
+        "text": "Видимо се сутра.",
+        "source_url": "https://tatoeba.org/en/sentences/show/3791345",
+        "original_contributor": "Ricardo14",
+        "original_contributor_url": "https://tatoeba.org/en/user/profile/Ricardo14",
+        "export_owner": "Ricardo14",
+        "export_owner_url": "https://tatoeba.org/en/user/profile/Ricardo14",
+        "license": "CC BY 2.0 FR",
+        "license_url": "https://creativecommons.org/licenses/by/2.0/fr/"
+      },
+      "translation": {
+        "id": 497969,
+        "language_code": "eng",
+        "text": "See you tomorrow.",
+        "source_url": "https://tatoeba.org/en/sentences/show/497969",
+        "original_contributor": "FeuDRenais",
+        "original_contributor_url": "https://tatoeba.org/en/user/profile/FeuDRenais",
+        "export_owner": "CM",
+        "export_owner_url": "https://tatoeba.org/en/user/profile/CM",
+        "license": "CC BY 2.0 FR",
+        "license_url": "https://creativecommons.org/licenses/by/2.0/fr/"
+      },
+      "usage_note": "Written in Serbian Cyrillic.",
+      "review_status": "editorially_selected_not_native_verified"
+    },
+    {
+      "id": "tatoeba-5003682-333156",
+      "corpus": "Tatoeba",
+      "source_corpus_language": "Serbian",
+      "script": "Latn",
+      "ekavian_ijekavian": null,
+      "source": {
+        "id": 5003682,
+        "language_code": "srp",
+        "text": "Dobro veče.",
+        "source_url": "https://tatoeba.org/en/sentences/show/5003682",
+        "original_contributor": "Lebad",
+        "original_contributor_url": "https://tatoeba.org/en/user/profile/Lebad",
+        "export_owner": "Lebad",
+        "export_owner_url": "https://tatoeba.org/en/user/profile/Lebad",
+        "license": "CC BY 2.0 FR",
+        "license_url": "https://creativecommons.org/licenses/by/2.0/fr/"
+      },
+      "translation": {
+        "id": 333156,
+        "language_code": "eng",
+        "text": "Good evening.",
+        "source_url": "https://tatoeba.org/en/sentences/show/333156",
+        "original_contributor": "Aurix",
+        "original_contributor_url": "https://tatoeba.org/en/user/profile/Aurix",
+        "export_owner": "Aurix",
+        "export_owner_url": "https://tatoeba.org/en/user/profile/Aurix",
+        "license": "CC BY 2.0 FR",
+        "license_url": "https://creativecommons.org/licenses/by/2.0/fr/"
+      },
+      "usage_note": "",
+      "review_status": "editorially_selected_not_native_verified"
+    }
+  ],
+  "links_and_english_last_modified_utc": "2026-11-14"
+}

@@ -1,0 +1,105 @@
+{
+  "schema_version": 1,
+  "title": "Everyday Serbo-Croatian: beginner practice",
+  "description": "Original beginner teaching material. This is a self-check, not an official examination or a CEFR certification. The material awaits native-speaker review.",
+  "language_notes": "The examples prioritize Serbian and Montenegrin usage. Serbian also has Ijekavian speakers, and forms cross borders. Variants are examples, not exclusive national labels. Ordinary spelling does not consistently show stress.",
+  "lessons": [
+    {
+      "id": "meet-and-greet", "order": 1, "title": "Meet someone", "body": "Use Dobar dan as a polite daytime greeting. Zovem se introduces your name, and Drago mi je means pleased to meet you. Kako si? is familiar singular; Kako ste? addresses someone politely or more than one person.",
+      "examples": [
+        {"target": "Dobar dan! Zovem se Ana.", "english": "Good day! My name is Ana."},
+        {"target": "Drago mi je.", "english": "Pleased to meet you."},
+        {"target": "Kako ste?", "english": "How are you?", "note": "Polite singular or plural."}
+      ]
+    },
+    {
+      "id": "scripts-and-sounds", "order": 2, "title": "Read both scripts", "body": "Serbian and Montenegrin can be written in Latin or Cyrillic. The Latin digraphs lj, nj and dž each correspond to one Cyrillic letter: љ, њ and џ. Latin j sounds like English y in yes; č and ć are different sounds. Montenegrin also has ś and ź, with Cyrillic с́ and з́; their use varies. A transliteration changes script, not the regional word or pronunciation.",
+      "examples": [
+        {"target": "Dobar dan.", "cyrillic": "Добар дан.", "english": "Good day."},
+        {"target": "njega", "cyrillic": "њега", "english": "him", "note": "An example of the letter nj; the word changes form with grammar."}
+      ]
+    },
+    {
+      "id": "shared-variants", "order": 3, "title": "Notice useful variants", "body": "Ekavian mleko and Ijekavian mlijeko both mean milk; gde and gdje both mean where. Ijekavian is common in Montenegro, while both Ekavian and Ijekavian are used by Serbian speakers. Sjutra and sutra both occur in Montenegro. Croatian often uses kruh for bread; hljeb and hleb are also regional words for bread. Kava is common in Croatian; kafa and kahva also occur, including in Bosnia and Herzegovina.",
+      "examples": [
+        {"target": "mlijeko", "alternatives": ["mleko"], "english": "milk", "note": "Ijekavian / Ekavian."},
+        {"target": "Gdje je stanica?", "alternatives": ["Gde je stanica?"], "english": "Where is the station?"},
+        {"target": "sjutra", "alternatives": ["sutra"], "english": "tomorrow", "note": "Both forms are used in Montenegro."}
+      ]
+    },
+    {
+      "id": "be-and-have", "order": 4, "title": "Say who you are", "body": "Short forms of biti, to be, include ja sam, ti si and on or ona je. Imam means I have. The subject pronoun can often be omitted when the verb ending makes the person clear.",
+      "examples": [
+        {"target": "Ja sam Ana.", "alternatives": ["Ana sam."], "english": "I am Ana."},
+        {"target": "Ona je moja sestra.", "english": "She is my sister."},
+        {"target": "Imam pitanje.", "english": "I have a question."}
+      ]
+    },
+    {
+      "id": "agreement", "order": 5, "title": "Describe how you feel", "body": "Some adjectives change according to the speaker. A man can say Gladan sam; a woman can say Gladna sam. These are masculine and feminine forms of the adjective, not two different verbs.",
+      "examples": [
+        {"target": "Gladan sam.", "english": "I am hungry.", "note": "Masculine speaker."},
+        {"target": "Gladna sam.", "english": "I am hungry.", "note": "Feminine speaker."},
+        {"target": "Dobro sam.", "english": "I am well."}
+      ]
+    },
+    {
+      "id": "polite-requests", "order": 6, "title": "Order and ask politely", "body": "Molim and hvala help make a request polite. Želim means I would like or I want. In Vodu, molim, voda changes to vodu; nouns can change form according to their role in a sentence.",
+      "examples": [
+        {"target": "Vodu, molim.", "english": "Water, please."},
+        {"target": "Želim čaj.", "english": "I would like tea."},
+        {"target": "Račun, molim.", "english": "The bill, please."}
+      ]
+    },
+    {
+      "id": "questions-and-negation", "order": 7, "title": "Ask and say no", "body": "Ne usually comes before a verb: razumijem means I understand, while ne razumijem means I do not understand. A polite question can use Govorite li...? Another common pattern is Da li govorite...?",
+      "examples": [
+        {"target": "Ne razumijem.", "alternatives": ["Ne razumem."], "english": "I do not understand."},
+        {"target": "Govorite li engleski?", "alternatives": ["Da li govorite engleski?"], "english": "Do you speak English?", "note": "Polite singular or plural."},
+        {"target": "Možete li ponoviti?", "english": "Could you repeat that?"}
+      ]
+    },
+    {
+      "id": "places-and-time", "order": 8, "title": "Find a place and make a plan", "body": "Gdje or gde asks where. Danas means today; sutra and sjutra mean tomorrow. Some small words change the noun form: u gradu means in the city, while u grad can express movement into the city.",
+      "examples": [
+        {"target": "Gdje je hotel?", "alternatives": ["Gde je hotel?"], "english": "Where is the hotel?"},
+        {"target": "Vidimo se sutra.", "alternatives": ["Vidimo se sjutra."], "english": "See you tomorrow."},
+        {"target": "Živim u gradu.", "english": "I live in the city."}
+      ]
+    }
+  ],
+  "placement": [
+    {"id":"p01","kind":"choice","prompt":"Which greeting is appropriate during the day?","options":[{"id":"a","text":"Dobar dan."},{"id":"b","text":"Laku noć."},{"id":"c","text":"Hvala."}],"accepted_answers":["a"],"feedback":"Dobar dan is a daytime greeting. Laku noć means good night; hvala means thank you."},
+    {"id":"p02","kind":"choice","prompt":"Which phrase asks a stranger politely how they are?","options":[{"id":"a","text":"Kako ste?"},{"id":"b","text":"Kako si?"},{"id":"c","text":"Hvala."}],"accepted_answers":["a"],"feedback":"Kako ste? is polite singular or plural. Kako si? is familiar singular."},
+    {"id":"p03","kind":"choice","prompt":"What does Zovem se Ana mean?","options":[{"id":"a","text":"My name is Ana."},{"id":"b","text":"I am looking for Ana."},{"id":"c","text":"Ana is my sister."}],"accepted_answers":["a"],"feedback":"Zovem se introduces the speaker's name."},
+    {"id":"p04","kind":"choice","prompt":"Which Latin form matches the Cyrillic добар дан?","options":[{"id":"a","text":"dobar dan"},{"id":"b","text":"dobro jutro"},{"id":"c","text":"doviđenja"}],"accepted_answers":["a"],"feedback":"Добар дан and dobar dan are the same words in two scripts."},
+    {"id":"p05","kind":"choice","prompt":"Which word means milk?","options":[{"id":"a","text":"mlijeko"},{"id":"b","text":"voda"},{"id":"c","text":"čaj"}],"accepted_answers":["a"],"feedback":"Mlijeko is an Ijekavian form; mleko is an Ekavian form. Voda is water and čaj is tea."},
+    {"id":"p06","kind":"choice","prompt":"You want to order water. Which phrase fits?","options":[{"id":"a","text":"Vodu, molim."},{"id":"b","text":"Kako se zovete?"},{"id":"c","text":"Vidimo se sutra."}],"accepted_answers":["a"],"feedback":"Vodu, molim means water, please."},
+    {"id":"p07","kind":"choice","prompt":"What does Ne razumijem mean?","options":[{"id":"a","text":"I do not understand."},{"id":"b","text":"I understand."},{"id":"c","text":"I do not know your name."}],"accepted_answers":["a"],"feedback":"Ne makes the verb negative. Ne razumem is an Ekavian alternative."},
+    {"id":"p08","kind":"choice","prompt":"A woman says she is hungry. Which example fits?","options":[{"id":"a","text":"Gladna sam."},{"id":"b","text":"Gladan sam."},{"id":"c","text":"Gladan si."}],"accepted_answers":["a"],"feedback":"Gladna is the feminine form here; gladan is masculine."},
+    {"id":"p09","kind":"choice","prompt":"Which question asks where the hotel is?","options":[{"id":"a","text":"Gdje je hotel?"},{"id":"b","text":"Koliko je sati?"},{"id":"c","text":"Kako ste?"}],"accepted_answers":["a"],"feedback":"Gdje je hotel? asks where the hotel is. Gde je hotel? is another valid form."},
+    {"id":"p10","kind":"choice","prompt":"Read: Danas sam kod kuće. Sutra idem u grad. When am I going to town?","options":[{"id":"a","text":"Tomorrow."},{"id":"b","text":"Today."},{"id":"c","text":"Yesterday."}],"accepted_answers":["a"],"feedback":"Sutra means tomorrow; sjutra is also used in Montenegro."},
+    {"id":"p11","kind":"choice","prompt":"Which pair means the same thing in Ijekavian and Ekavian?","options":[{"id":"a","text":"gdje / gde"},{"id":"b","text":"danas / sutra"},{"id":"c","text":"voda / čaj"}],"accepted_answers":["a"],"feedback":"Gdje and gde both mean where. Danas and sutra mean today and tomorrow."},
+    {"id":"p12","kind":"choice","prompt":"Which phrase politely asks someone to repeat?","options":[{"id":"a","text":"Možete li ponoviti?"},{"id":"b","text":"Zovem se Ana."},{"id":"c","text":"Dobar dan."}],"accepted_answers":["a"],"feedback":"Možete li ponoviti? means Could you repeat?"},
+    {"id":"p13","kind":"text","prompt":"Write ‘thank you’ in the language. Either script is welcome.","accepted_answers":["hvala","хвала"],"feedback":"Hvala / хвала means thank you. Other longer expressions of thanks may also be correct; these are the model answers."},
+    {"id":"p14","kind":"text","prompt":"Write ‘I do not understand’. Use either an Ekavian or Ijekavian form, in either script.","accepted_answers":["ne razumijem","ne razumem","не разумијем","не разумем"],"feedback":"Ne razumijem and ne razumem are two forms. Accept equivalent punctuation and capitalization; other valid wording may exist."},
+    {"id":"p15","kind":"text","prompt":"Write ‘Where is the hotel?’ using either gdje or gde, in either script.","accepted_answers":["gdje je hotel","gde je hotel","гдје је хотел","где је хотел"],"feedback":"Gdje je hotel? and Gde je hotel? are both valid. Equivalent punctuation and capitalization should be accepted."},
+    {"id":"p16","kind":"choice","prompt":"Read: A: Imate li čaj? B: Da, imamo čaj i kafu. What does B say?","options":[{"id":"a","text":"They have tea and coffee."},{"id":"b","text":"They only have water."},{"id":"c","text":"They do not have tea."}],"accepted_answers":["a"],"feedback":"Da means yes; imamo čaj i kafu means we have tea and coffee."}
+  ],
+  "placement_guidance": "These questions sample basic reading and language recognition only. They do not measure listening, speaking or writing independently, cannot establish a CEFR level, and are not a substitute for an institutional assessment. For text questions, ignore case and punctuation, preserve meaningful diacritics and recognize the listed scripts. If an unlisted answer may be valid, show the model answers and offer self-assessment instead of declaring the learner wrong.",
+  "dialogues": [
+    {"id":"meeting","title":"Meeting a person","context":"Two people meet for the first time.","lines":[{"speaker":"A","text":"Dobar dan! Zovem se Ana.","english":"Good day! My name is Ana."},{"speaker":"B","text":"Dobar dan, Ana. Ja sam Marko. Drago mi je.","english":"Good day, Ana. I am Marko. Pleased to meet you."},{"speaker":"A","text":"Drago mi je.","english":"Pleased to meet you."}],"practice_prompt":"Introduce yourself, then greet someone politely."},
+    {"id":"cafe","title":"At a cafe","context":"A guest orders a drink.","lines":[{"speaker":"A","text":"Dobar dan. Vodu i čaj, molim.","english":"Good day. Water and tea, please."},{"speaker":"B","text":"Izvolite.","english":"Here you are."},{"speaker":"A","text":"Hvala!","english":"Thank you!"}],"practice_prompt":"Ask for water or tea, and thank the person serving you."},
+    {"id":"directions","title":"Finding a hotel","context":"A visitor asks for directions.","lines":[{"speaker":"A","text":"Izvinite, gdje je hotel?","english":"Excuse me, where is the hotel?"},{"speaker":"B","text":"Tamo, desno.","english":"Over there, to the right."},{"speaker":"A","text":"Hvala vam.","english":"Thank you."}],"variant_notes":"Gde is an Ekavian alternative to gdje. Oprostite is another polite way to say excuse me, including common Croatian usage.","practice_prompt":"Ask where the hotel is using either gdje or gde."},
+    {"id":"clarify","title":"Ask someone to repeat","context":"A learner needs a little help.","lines":[{"speaker":"A","text":"Izvinite, ne razumijem.","english":"Excuse me, I do not understand."},{"speaker":"A","text":"Možete li ponoviti, molim?","english":"Could you repeat that, please?"},{"speaker":"B","text":"Naravno. Sporije?","english":"Of course. More slowly?"},{"speaker":"A","text":"Da, hvala.","english":"Yes, thank you."}],"variant_notes":"Ne razumem is an Ekavian alternative.","practice_prompt":"Say you do not understand and politely ask for repetition."},
+    {"id":"family-plan","title":"Make a plan","context":"Two friends arrange to meet.","lines":[{"speaker":"A","text":"Vidimo se sutra?","english":"Shall we see each other tomorrow?"},{"speaker":"B","text":"Da, vidimo se sutra!","english":"Yes, see you tomorrow!"},{"speaker":"A","text":"Pozdravi porodicu!","english":"Say hello to your family!"}],"variant_notes":"Sjutra is another form heard in Montenegro; Croatian also commonly uses obitelj for family.","practice_prompt":"Arrange to meet tomorrow and greet a friend's family."}
+  ],
+  "rhythm": [
+    {"id":"greeting-chant","title":"A small greeting chant","kind":"original_text","text":["Dobar dan, dobar dan,","Čaj i vodu, molim vam.","Hvala puno, hvala vam,","Vidimo se, prijatan dan!"],"english":["Good day, good day,","Tea and water, please.","Thank you very much, thank you,","See you; have a pleasant day!"],"usage_note":"Read or speak to a steady beat. This original text is not a recording or a traditional song; pronunciation and rhythm need native review."}
+  ],
+  "references": [
+    {"title":"University of Belgrade: Serbian courses and sample exams","url":"https://learnserbian.fil.bg.ac.rs/"},
+    {"title":"Faculty of Montenegrin Language and Literature: courses","url":"https://fcjk.ac.me/kurs-crnogorskoga-jezika-za-strance/"},
+    {"title":"Montenegrin language testing program for foreigners, 2018","url":"https://fcjk.ac.me/wp-content/uploads/2024/03/Provjera-znanja-crnogorskoga-jezika-za-strance.pdf"}
+  ]
+}

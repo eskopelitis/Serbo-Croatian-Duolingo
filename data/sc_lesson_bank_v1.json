@@ -1,0 +1,4918 @@
+{
+  "schema_version": 1,
+  "title": "Everyday Serbo-Croatian: handwritten lesson bank",
+  "editorial_status": "hand_authored_awaiting_native_review",
+  "description": "Thirty individually authored lessons from first contact through lower-intermediate review. Levels are editorial guides, not a CEFR certification. Examples prioritize Serbian and Montenegrin while showing supported forms used across Serbian, Montenegrin, Croatian and Bosnian.",
+  "language_notes": "The four standards share a large common base, and forms cross borders. Regional labels describe useful tendencies, not exclusive national ownership. Serbian and Montenegrin use both Latin and Cyrillic; Croatian is normally written in Latin, and Bosnian is commonly written in Latin and also Cyrillic. Every lesson awaits native-speaker review.",
+  "answer_policy": "Each exercise lists accepted answers explicitly. A client may normalize Unicode to NFC, case, surrounding whitespace and terminal punctuation, but must preserve meaningful diacritics. An unlisted answer that may be valid should be shown beside the model answer for self-assessment instead of being declared wrong.",
+  "source_policy": "Teaching explanations and original examples were written for this bank. A small number of authentic sentence examples are from the attributed Tatoeba pilot; their source and English-side contributor, sentence URL, export owner and CC BY 2.0 FR license are recorded on the example. Vocabulary selection was informed by data/sc_frequency_2000.json and research/sc_frequency_2000_sources.md. That candidate list is Croatian-web-corpus ranked and remains unreviewed.",
+  "references": [
+    {
+      "title": "Ranked vocabulary candidate data",
+      "path": "data/sc_frequency_2000.json"
+    },
+    {
+      "title": "Frequency sources and limitations",
+      "path": "research/sc_frequency_2000_sources.md"
+    },
+    {
+      "title": "Attributed Tatoeba sentence pilot",
+      "path": "research/tatoeba-pilot.json"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "hello-and-introductions",
+      "order": 1,
+      "level": "A0",
+      "title": "Greet and introduce yourself",
+      "objective": "Use a greeting, say your name and choose a polite or familiar question.",
+      "teaching_note": "Dobar dan is a polite daytime greeting. Zovem se introduces a name. Kako ste? is polite singular or plural; Kako si? is familiar singular. The pronoun ja is often omitted when the verb already makes the person clear.",
+      "new_vocabulary": [
+        "zdravo",
+        "dobar dan",
+        "dan",
+        "zvati se",
+        "ime",
+        "kako",
+        "ja",
+        "hvala"
+      ],
+      "review_vocabulary": [],
+      "vocabulary_tags": [
+        "greeting",
+        "introduction",
+        "name",
+        "time-of-day"
+      ],
+      "skill_tags": [
+        "reading",
+        "speaking",
+        "short-writing"
+      ],
+      "grammar_tags": [
+        "reflexive-name-formula",
+        "formal-and-familiar-address"
+      ],
+      "prerequisites": [],
+      "examples": [
+        {
+          "target": "Dobar dan. Zovem se Ana.",
+          "english": "Good day. My name is Ana."
+        },
+        {
+          "target": "Kako ste?",
+          "english": "How are you?",
+          "note": "Polite singular or plural."
+        },
+        {
+          "target": "Moje ime je Ana.",
+          "english": "My name is Ana."
+        },
+        {
+          "target": "Hvala.",
+          "english": "Thank you."
+        },
+        {
+          "target": "Zdravo.",
+          "english": "Hello!",
+          "note": "Tatoeba sentence labeled Bosnian; this greeting is broadly understood.",
+          "source": {
+            "corpus": "Tatoeba",
+            "corpus_language_label": "Bosnian",
+            "source_sentence_id": 466190,
+            "source_text": "Zdravo.",
+            "source_url": "https://tatoeba.org/en/sentences/show/466190",
+            "source_contributor": "FeuDRenais",
+            "source_contributor_url": "https://tatoeba.org/en/user/profile/FeuDRenais",
+            "source_export_owner": "FeuDRenais",
+            "source_export_owner_url": "https://tatoeba.org/en/user/profile/FeuDRenais",
+            "translation_sentence_id": 373330,
+            "translation_text": "Hello!",
+            "translation_url": "https://tatoeba.org/en/sentences/show/373330",
+            "translation_contributor": "boracasli",
+            "translation_contributor_url": "https://tatoeba.org/en/user/profile/boracasli",
+            "translation_export_owner": "CK",
+            "translation_export_owner_url": "https://tatoeba.org/en/user/profile/CK",
+            "license": "CC BY 2.0 FR",
+            "license_url": "https://creativecommons.org/licenses/by/2.0/fr/",
+            "modification": "None."
+          }
+        }
+      ],
+      "exercises": [
+        {
+          "id": "hello-and-introductions-greeting-choice",
+          "kind": "choice",
+          "prompt": "Which is a polite daytime greeting?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Dobar dan.",
+              "language": "target"
+            },
+            {
+              "id": "b",
+              "text": "Laku noć.",
+              "language": "target"
+            },
+            {
+              "id": "c",
+              "text": "Hvala.",
+              "language": "target"
+            }
+          ],
+          "accepted_answers": [
+            "a"
+          ],
+          "feedback": "Dobar dan means good day. Laku noć means good night; hvala means thank you.",
+          "tags": [
+            "greeting",
+            "time-of-day"
+          ],
+          "answer_language": "target",
+          "prompt_language": "english"
+        },
+        {
+          "id": "hello-and-introductions-name-text",
+          "kind": "short_text",
+          "prompt": "Write “My name is Ana.”",
+          "accepted_answers": [
+            "Zovem se Ana",
+            "Zovem se Ana."
+          ],
+          "feedback": "Zovem se Ana is the usual name-introduction formula.",
+          "tags": [
+            "introduction",
+            "name"
+          ],
+          "answer_language": "target",
+          "prompt_language": "english"
+        },
+        {
+          "id": "hello-and-introductions-address-transform",
+          "kind": "transform",
+          "prompt": "Change the familiar question Kako si? to polite or plural address.",
+          "accepted_answers": [
+            "Kako ste",
+            "Kako ste?"
+          ],
+          "feedback": "Replace si with ste to address someone politely or more than one person.",
+          "tags": [
+            "formal-and-familiar-address"
+          ],
+          "answer_language": "target",
+          "prompt_language": "mixed",
+          "prompt_segments": [
+            {
+              "text": "Change the familiar question ",
+              "language": "english"
+            },
+            {
+              "text": "Kako si?",
+              "language": "target"
+            },
+            {
+              "text": " to polite or plural address.",
+              "language": "english"
+            }
+          ]
+        }
+      ],
+      "unit_id": "first-steps",
+      "unit_title": "First steps",
+      "unit_objective": "Greet people and introduce yourself.",
+      "unit_order": 1
+    },
+    {
+      "id": "scripts-and-sounds",
+      "order": 2,
+      "level": "A0",
+      "title": "Recognize both scripts",
+      "objective": "Match familiar Latin spellings with Cyrillic and notice several distinct sounds.",
+      "teaching_note": "Serbian and Montenegrin may be written in either script. A transliteration changes script, not the word. Latin č and ć are different letters; š and ž are also distinct. In Latin, lj, nj and dž are traditionally taught as alphabetic units and correspond to љ, њ and џ.",
+      "new_vocabulary": [
+        "zdravo",
+        "dan",
+        "čaj",
+        "ljubav"
+      ],
+      "review_vocabulary": [
+        "dobar dan"
+      ],
+      "vocabulary_tags": [
+        "alphabet",
+        "scripts",
+        "pronunciation"
+      ],
+      "skill_tags": [
+        "reading",
+        "pronunciation"
+      ],
+      "grammar_tags": [
+        "latin-cyrillic-correspondence"
+      ],
+      "prerequisites": [
+        "hello-and-introductions"
+      ],
+      "examples": [
+        {
+          "target": "Zdravo.",
+          "cyrillic": "Здраво.",
+          "english": "Hello."
+        },
+        {
+          "target": "Dobar dan.",
+          "cyrillic": "Добар дан.",
+          "english": "Good day."
+        },
+        {
+          "target": "ljubav",
+          "cyrillic": "љубав",
+          "english": "love",
+          "note": "Latin lj corresponds to one Cyrillic letter."
+        }
+      ],
+      "exercises": [
+        {
+          "id": "scripts-and-sounds-match-choice",
+          "kind": "choice",
+          "prompt": "Which Latin phrase matches Добар дан?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Dobar dan",
+              "language": "target",
+              "display_script": "latin"
+            },
+            {
+              "id": "b",
+              "text": "Dobro jutro",
+              "language": "target",
+              "display_script": "latin"
+            },
+            {
+              "id": "c",
+              "text": "Doviđenja",
+              "language": "target",
+              "display_script": "latin"
+            }
+          ],
+          "accepted_answers": [
+            "a"
+          ],
+          "feedback": "Добар дан is Dobar dan, with the same words written in Cyrillic.",
+          "tags": [
+            "latin-cyrillic-correspondence"
+          ],
+          "answer_language": "target",
+          "prompt_language": "mixed",
+          "prompt_segments": [
+            {
+              "text": "Which Latin phrase matches ",
+              "language": "english"
+            },
+            {
+              "text": "Добар дан?",
+              "language": "literal"
+            }
+          ]
+        },
+        {
+          "id": "scripts-and-sounds-cyrillic-text",
+          "kind": "short_text",
+          "prompt": "Write Zdravo in Cyrillic.",
+          "required_script": "cyrillic",
+          "accepted_answers": [
+            "Здраво",
+            "Здраво."
+          ],
+          "feedback": "Здраво is the Cyrillic spelling of Zdravo.",
+          "tags": [
+            "scripts"
+          ],
+          "answer_language": "target",
+          "prompt_language": "mixed",
+          "prompt_segments": [
+            {
+              "text": "Write ",
+              "language": "english"
+            },
+            {
+              "text": "Zdravo",
+              "language": "literal"
+            },
+            {
+              "text": " in Cyrillic.",
+              "language": "english"
+            }
+          ]
+        },
+        {
+          "id": "scripts-and-sounds-unit-transform",
+          "kind": "transform",
+          "prompt": "Write the Cyrillic letter that corresponds to Latin nj.",
+          "required_script": "cyrillic",
+          "accepted_answers": [
+            "њ",
+            "Њ"
+          ],
+          "feedback": "Latin nj corresponds to the single Cyrillic letter њ.",
+          "tags": [
+            "latin-cyrillic-correspondence"
+          ],
+          "answer_language": "target",
+          "prompt_language": "mixed",
+          "prompt_segments": [
+            {
+              "text": "Write the Cyrillic letter that corresponds to Latin ",
+              "language": "english"
+            },
+            {
+              "text": "nj",
+              "language": "literal"
+            },
+            {
+              "text": ".",
+              "language": "english"
+            }
+          ]
+        }
+      ],
+      "unit_id": "first-steps",
+      "unit_title": "First steps",
+      "unit_objective": "Greet people and introduce yourself.",
+      "unit_order": 1
+    },
+    {
+      "id": "pronouns-and-biti",
+      "order": 3,
+      "level": "A1",
+      "title": "Say who you are",
+      "objective": "Use the present forms sam, si, je and smo in short introductions.",
+      "teaching_note": "Biti means to be. Its short present forms include ja sam, ti si, on or ona je, mi smo, vi ste and oni or one su. The subject pronoun is optional in many ordinary sentences; include it when useful for emphasis or clarity.",
+      "new_vocabulary": [
+        "biti",
+        "sam",
+        "si",
+        "je",
+        "smo",
+        "ste",
+        "su"
+      ],
+      "review_vocabulary": [
+        "ja",
+        "zvati se"
+      ],
+      "vocabulary_tags": [
+        "identity",
+        "people",
+        "introductions"
+      ],
+      "skill_tags": [
+        "reading",
+        "speaking",
+        "short-writing"
+      ],
+      "grammar_tags": [
+        "biti-present",
+        "subject-pronouns"
+      ],
+      "prerequisites": [
+        "hello-and-introductions"
+      ],
+      "examples": [
+        {
+          "target": "Ja sam Ana.",
+          "english": "I am Ana."
+        },
+        {
+          "target": "Ona je moja sestra.",
+          "english": "She is my sister."
+        },
+        {
+          "target": "Mi smo prijatelji.",
+          "english": "We are friends."
+        }
+      ],
+      "exercises": [
+        {
+          "id": "pronouns-and-biti-form-choice",
+          "kind": "choice",
+          "prompt": "Complete: Mi ___ ovde. (We are here.)",
+          "options": [
+            {
+              "id": "a",
+              "text": "sam",
+              "language": "target"
+            },
+            {
+              "id": "b",
+              "text": "smo",
+              "language": "target"
+            },
+            {
+              "id": "c",
+              "text": "ste",
+              "language": "target"
+            }
+          ],
+          "accepted_answers": [
+            "b"
+          ],
+          "feedback": "Smo is the present form of biti used with mi, “we.”",
+          "tags": [
+            "biti-present"
+          ],
+          "answer_language": "target",
+          "prompt_segments": [
+            {
+              "text": "Complete: ",
+              "language": "english"
+            },
+            {
+              "text": "Mi ___ ovde.",
+              "language": "target"
+            },
+            {
+              "text": " (We are here.)",
+              "language": "english"
+            }
+          ],
+          "prompt_language": "mixed"
+        },
+        {
+          "id": "pronouns-and-biti-translate-text",
+          "kind": "short_text",
+          "prompt": "Translate: She is Ana.",
+          "accepted_answers": [
+            "Ona je Ana",
+            "Ona je Ana."
+          ],
+          "feedback": "Ona means she, and je is the present form of biti.",
+          "tags": [
+            "biti-present",
+            "people"
+          ],
+          "answer_language": "target",
+          "prompt_language": "english"
+        },
+        {
+          "id": "pronouns-and-biti-omit-transform",
+          "kind": "transform",
+          "prompt": "Remove the optional subject pronoun without changing the meaning: Ja sam Marko.",
+          "accepted_answers": [
+            "Marko sam",
+            "Marko sam."
+          ],
+          "feedback": "The subject ja is optional; place sam after the name: Marko sam.",
+          "tags": [
+            "subject-pronouns"
+          ],
+          "answer_language": "target",
+          "prompt_language": "mixed",
+          "prompt_segments": [
+            {
+              "text": "Remove the optional subject pronoun without changing the meaning: ",
+              "language": "english"
+            },
+            {
+              "text": "Ja sam Marko.",
+              "language": "target"
+            }
+          ]
+        }
+      ],
+      "unit_id": "first-steps",
+      "unit_title": "First steps",
+      "unit_objective": "Greet people and introduce yourself.",
+      "unit_order": 1
+    },
+    {
+      "id": "gender-and-adjectives",
+      "order": 4,
+      "level": "A1",
+      "title": "Match adjective endings",
+      "objective": "Use common masculine, feminine and neuter adjective forms.",
+      "teaching_note": "Many adjectives change to agree with a noun's grammatical gender and number. Dobar, dobra and dobro are masculine, feminine and neuter forms of “good.” The noun's grammatical gender matters; it is not always the same as a person's gender.",
+      "new_vocabulary": [
+        "dobar",
+        "dobra",
+        "dobro",
+        "velik",
+        "mali",
+        "sestra"
+      ],
+      "review_vocabulary": [
+        "biti",
+        "dobar dan"
+      ],
+      "vocabulary_tags": [
+        "description",
+        "quality",
+        "people"
+      ],
+      "skill_tags": [
+        "reading",
+        "speaking",
+        "short-writing"
+      ],
+      "grammar_tags": [
+        "adjective-agreement",
+        "grammatical-gender"
+      ],
+      "prerequisites": [
+        "pronouns-and-biti"
+      ],
+      "examples": [
+        {
+          "target": "Dobar dan.",
+          "english": "Good day.",
+          "note": "Dan is masculine."
+        },
+        {
+          "target": "Dobra sestra.",
+          "english": "A good sister."
+        },
+        {
+          "target": "Dobro jutro.",
+          "english": "Good morning.",
+          "note": "Jutro is neuter."
+        }
+      ],
+      "exercises": [
+        {
+          "id": "gender-and-adjectives-choice",
+          "kind": "choice",
+          "prompt": "Which greeting means “good morning”?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Dobar dan.",
+              "language": "target"
+            },
+            {
+              "id": "b",
+              "text": "Dobro jutro.",
+              "language": "target"
+            },
+            {
+              "id": "c",
+              "text": "Laku noć.",
+              "language": "target"
+            }
+          ],
+          "accepted_answers": [
+            "b"
+          ],
+          "feedback": "Dobro jutro means good morning. Dobar dan means good day; laku noć means good night.",
+          "tags": [
+            "adjective-agreement"
+          ],
+          "answer_language": "target",
+          "prompt_language": "english"
+        },
+        {
+          "id": "gender-and-adjectives-agree-text",
+          "kind": "short_text",
+          "prompt": "Complete the phrase with the feminine form: ___ kuća (a big house).",
+          "accepted_answers": [
+            "velika"
+          ],
+          "feedback": "Kuća is feminine, so use velika.",
+          "tags": [
+            "grammatical-gender",
+            "adjective-agreement"
+          ],
+          "answer_language": "target",
+          "prompt_segments": [
+            {
+              "text": "Complete the phrase with the feminine form: ",
+              "language": "english"
+            },
+            {
+              "text": "___ kuća",
+              "language": "target"
+            },
+            {
+              "text": " (a big house).",
+              "language": "english"
+            }
+          ],
+          "prompt_language": "mixed"
+        },
+        {
+          "id": "gender-and-adjectives-description",
+          "kind": "dialogue_response",
+          "prompt": "A man says “I am hungry.” Write the usual masculine form.",
+          "accepted_answers": [
+            "Gladan sam",
+            "Gladan sam."
+          ],
+          "feedback": "Gladan agrees with a masculine speaker; a woman commonly says Gladna sam.",
+          "tags": [
+            "adjective-agreement",
+            "people"
+          ],
+          "answer_language": "target",
+          "prompt_language": "english"
+        }
+      ],
+      "unit_id": "first-steps",
+      "unit_title": "First steps",
+      "unit_objective": "Greet people and introduce yourself.",
+      "unit_order": 1
+    },
+    {
+      "id": "questions-and-demonstratives",
+      "order": 5,
+      "level": "A1",
+      "title": "Ask what something is",
+      "objective": "Use šta or što, ovo and simple question forms.",
+      "teaching_note": "Šta and što both mean “what”; preference varies by region and construction. Ovo means “this” or “this thing.” Intonation can form a yes-or-no question, and li is a common question particle. The authentic example below is labeled Bosnian in Tatoeba; the label does not claim exclusive usage.",
+      "new_vocabulary": [
+        "šta",
+        "što",
+        "ovo",
+        "to",
+        "ko"
+      ],
+      "review_vocabulary": [
+        "biti",
+        "dobar dan"
+      ],
+      "vocabulary_tags": [
+        "questions",
+        "demonstratives",
+        "objects"
+      ],
+      "skill_tags": [
+        "reading",
+        "conversation",
+        "short-writing"
+      ],
+      "grammar_tags": [
+        "question-words",
+        "demonstratives",
+        "question-particle-li"
+      ],
+      "prerequisites": [
+        "pronouns-and-biti",
+        "scripts-and-sounds"
+      ],
+      "examples": [
+        {
+          "target": "Šta je ovo?",
+          "english": "What is this?",
+          "note": "Tatoeba sentence labeled Bosnian.",
+          "source": {
+            "corpus": "Tatoeba",
+            "corpus_language_label": "Bosnian",
+            "source_sentence_id": 468745,
+            "source_text": "Šta je ovo?",
+            "source_url": "https://tatoeba.org/en/sentences/show/468745",
+            "source_contributor": "FeuDRenais",
+            "source_contributor_url": "https://tatoeba.org/en/user/profile/FeuDRenais",
+            "source_export_owner": "FeuDRenais",
+            "source_export_owner_url": "https://tatoeba.org/en/user/profile/FeuDRenais",
+            "translation_sentence_id": 392210,
+            "translation_text": "What is this?",
+            "translation_url": "https://tatoeba.org/en/sentences/show/392210",
+            "translation_contributor": "sysko",
+            "translation_contributor_url": "https://tatoeba.org/en/user/profile/sysko",
+            "translation_export_owner": "sysko",
+            "translation_export_owner_url": "https://tatoeba.org/en/user/profile/sysko",
+            "license": "CC BY 2.0 FR",
+            "license_url": "https://creativecommons.org/licenses/by/2.0/fr/",
+            "modification": "None."
+          }
+        },
+        {
+          "target": "Ko je ovo?",
+          "english": "Who is this?"
+        },
+        {
+          "target": "Da li je ovo voda?",
+          "english": "Is this water?"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "questions-and-demonstratives-what-choice",
+          "kind": "choice",
+          "prompt": "Which phrase asks “What is this?”",
+          "options": [
+            {
+              "id": "a",
+              "text": "Šta je ovo?",
+              "language": "target"
+            },
+            {
+              "id": "b",
+              "text": "Gde je grad?",
+              "language": "target"
+            },
+            {
+              "id": "c",
+              "text": "Ko si ti?",
+              "language": "target"
+            }
+          ],
+          "accepted_answers": [
+            "a"
+          ],
+          "feedback": "Šta means what and ovo means this.",
+          "tags": [
+            "questions",
+            "demonstratives"
+          ],
+          "answer_language": "target",
+          "prompt_language": "english"
+        },
+        {
+          "id": "questions-and-demonstratives-who-text",
+          "kind": "short_text",
+          "prompt": "Translate: Who is this?",
+          "accepted_answers": [
+            "Ko je ovo",
+            "Ko je ovo?"
+          ],
+          "feedback": "Ko asks who; je is “is,” and ovo is “this.”",
+          "tags": [
+            "question-words",
+            "demonstratives"
+          ],
+          "answer_language": "target",
+          "prompt_language": "english"
+        },
+        {
+          "id": "questions-and-demonstratives-li-transform",
+          "kind": "transform",
+          "prompt": "Turn \"Ovo je voda.\" into a yes-or-no question using Da li.",
+          "accepted_answers": [
+            "Da li je ovo voda",
+            "Da li je ovo voda?"
+          ],
+          "feedback": "The pattern is Da li + verb + subject or complement: Da li je ovo voda?",
+          "tags": [
+            "question-particle-li"
+          ],
+          "answer_language": "target",
+          "prompt_segments": [
+            {
+              "text": "Turn \"",
+              "language": "english"
+            },
+            {
+              "text": "Ovo je voda.",
+              "language": "target"
+            },
+            {
+              "text": "\" into a yes-or-no question using ",
+              "language": "english"
+            },
+            {
+              "text": "Da li",
+              "language": "target"
+            },
+            {
+              "text": ".",
+              "language": "english"
+            }
+          ],
+          "prompt_language": "mixed"
+        }
+      ],
+      "unit_id": "first-steps",
+      "unit_title": "First steps",
+      "unit_objective": "Greet people and introduce yourself.",
+      "unit_order": 1
+    },
+    {
+      "id": "negation-and-yes-no",
+      "order": 6,
+      "level": "A1",
+      "title": "Say yes, no and not",
+      "objective": "Answer simple questions and place ne before an ordinary verb.",
+      "teaching_note": "Da means yes and ne means no. For most ordinary finite verbs, ne comes before the verb: znam “I know,” ne znam “I do not know.” Some forms combine with the negative, such as nemam “I do not have”; learn those as whole forms.",
+      "new_vocabulary": [
+        "da",
+        "ne",
+        "znati",
+        "ne znam",
+        "imati",
+        "nemam"
+      ],
+      "review_vocabulary": [
+        "šta",
+        "ovo",
+        "ja"
+      ],
+      "vocabulary_tags": [
+        "answers",
+        "negation",
+        "knowledge"
+      ],
+      "skill_tags": [
+        "reading",
+        "conversation",
+        "short-writing"
+      ],
+      "grammar_tags": [
+        "verb-negation",
+        "negative-have"
+      ],
+      "prerequisites": [
+        "questions-and-demonstratives"
+      ],
+      "examples": [
+        {
+          "target": "Da, znam.",
+          "english": "Yes, I know."
+        },
+        {
+          "target": "Ne znam.",
+          "english": "I don't know."
+        },
+        {
+          "target": "Ne znam.",
+          "english": "I don't know.",
+          "note": "Tatoeba sentence labeled Croatian.",
+          "source": {
+            "corpus": "Tatoeba",
+            "corpus_language_label": "Croatian",
+            "source_sentence_id": 1100756,
+            "source_text": "Ne znam.",
+            "source_url": "https://tatoeba.org/en/sentences/show/1100756",
+            "source_contributor": "vlado",
+            "source_contributor_url": "https://tatoeba.org/en/user/profile/vlado",
+            "source_export_owner": "vlado",
+            "source_export_owner_url": "https://tatoeba.org/en/user/profile/vlado",
+            "translation_sentence_id": 349064,
+            "translation_text": "I don't know.",
+            "translation_url": "https://tatoeba.org/en/sentences/show/349064",
+            "translation_contributor": "fatih",
+            "translation_contributor_url": "https://tatoeba.org/en/user/profile/fatih",
+            "translation_export_owner": "fatih",
+            "translation_export_owner_url": "https://tatoeba.org/en/user/profile/fatih",
+            "license": "CC BY 2.0 FR",
+            "license_url": "https://creativecommons.org/licenses/by/2.0/fr/",
+            "modification": "None."
+          }
+        }
+      ],
+      "exercises": [
+        {
+          "id": "negation-and-yes-no-answer-choice",
+          "kind": "choice",
+          "prompt": "What is the ordinary negative of znam, \"I know\"?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Znam ne",
+              "language": "target"
+            },
+            {
+              "id": "b",
+              "text": "Ne znam",
+              "language": "target"
+            },
+            {
+              "id": "c",
+              "text": "Nemam znam",
+              "language": "target"
+            }
+          ],
+          "accepted_answers": [
+            "b"
+          ],
+          "feedback": "For this verb, put ne before znam.",
+          "tags": [
+            "verb-negation"
+          ],
+          "answer_language": "target",
+          "prompt_segments": [
+            {
+              "text": "What is the ordinary negative of ",
+              "language": "english"
+            },
+            {
+              "text": "znam",
+              "language": "target"
+            },
+            {
+              "text": ", \"I know\"?",
+              "language": "english"
+            }
+          ],
+          "prompt_language": "mixed"
+        },
+        {
+          "id": "negation-and-yes-no-translate",
+          "kind": "short_text",
+          "prompt": "Translate: I do not know.",
+          "accepted_answers": [
+            "Ne znam",
+            "Ne znam."
+          ],
+          "feedback": "Ne znam means “I do not know.”",
+          "tags": [
+            "negation",
+            "knowledge"
+          ],
+          "answer_language": "target",
+          "prompt_language": "english"
+        },
+        {
+          "id": "negation-and-yes-no-have",
+          "kind": "dialogue_response",
+          "prompt": "You do not have water. Write “I don't have water.”",
+          "accepted_answers": [
+            "Nemam vodu",
+            "Nemam vodu."
+          ],
+          "feedback": "Nemam is the combined negative form of imam. Vodu is the object form of voda here.",
+          "tags": [
+            "negative-have",
+            "negation"
+          ],
+          "answer_language": "target",
+          "prompt_language": "english"
+        }
+      ],
+      "unit_id": "everyday-needs",
+      "unit_title": "Everyday needs",
+      "unit_objective": "Ask questions and handle simple purchases.",
+      "unit_order": 2
+    },
+    {
+      "id": "cafe-and-accusative",
+      "order": 7,
+      "level": "A1",
+      "title": "Order a drink",
+      "objective": "Make a polite request and recognize common feminine accusative forms.",
+      "teaching_note": "A short request can end with molim, “please.” In Vodu, molim, voda changes to vodu because it is the thing requested. Similar everyday forms include kafu, kavu or kahvu, depending on the noun form a speaker uses.",
+      "new_vocabulary": [
+        "voda",
+        "vodu",
+        "kafa",
+        "kafu",
+        "kava",
+        "kavu",
+        "kahva",
+        "kahvu",
+        "molim"
+      ],
+      "review_vocabulary": [
+        "da",
+        "ne",
+        "dobar dan"
+      ],
+      "vocabulary_tags": [
+        "cafe",
+        "drinks",
+        "polite-requests"
+      ],
+      "skill_tags": [
+        "reading",
+        "conversation",
+        "short-writing"
+      ],
+      "grammar_tags": [
+        "accusative-feminine",
+        "polite-requests"
+      ],
+      "prerequisites": [
+        "negation-and-yes-no"
+      ],
+      "examples": [
+        {
+          "target": "Vodu, molim.",
+          "english": "Water, please.",
+          "note": "Tatoeba sentence labeled Croatian.",
+          "source": {
+            "corpus": "Tatoeba",
+            "corpus_language_label": "Croatian",
+            "source_sentence_id": 12212580,
+            "source_text": "Vodu, molim.",
+            "source_url": "https://tatoeba.org/en/sentences/show/12212580",
+            "source_contributor": "Adelpa",
+            "source_contributor_url": "https://tatoeba.org/en/user/profile/Adelpa",
+            "source_export_owner": "Adelpa",
+            "source_export_owner_url": "https://tatoeba.org/en/user/profile/Adelpa",
+            "translation_sentence_id": 2132096,
+            "translation_text": "Water, please.",
+            "translation_url": "https://tatoeba.org/en/sentences/show/2132096",
+            "translation_contributor": "AlanF_US",
+            "translation_contributor_url": "https://tatoeba.org/en/user/profile/AlanF_US",
+            "translation_export_owner": "AlanF_US",
+            "translation_export_owner_url": "https://tatoeba.org/en/user/profile/AlanF_US",
+            "license": "CC BY 2.0 FR",
+            "license_url": "https://creativecommons.org/licenses/by/2.0/fr/",
+            "modification": "None."
+          }
+        },
+        {
+          "target": "Čaj, molim.",
+          "english": "Tea, please."
+        },
+        {
+          "target": "Kafu, molim.",
+          "english": "Coffee, please.",
+          "note": "Kavu or kahvu are also used."
+        }
+      ],
+      "exercises": [
+        {
+          "id": "cafe-and-accusative-choice",
+          "kind": "choice",
+          "prompt": "Which means “Water, please”?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Vodu, molim.",
+              "language": "target"
+            },
+            {
+              "id": "b",
+              "text": "Kako ste?",
+              "language": "target"
+            },
+            {
+              "id": "c",
+              "text": "Laku noć.",
+              "language": "target"
+            }
+          ],
+          "accepted_answers": [
+            "a"
+          ],
+          "feedback": "Vodu is the object form in this short request; molim means please.",
+          "tags": [
+            "cafe",
+            "polite-requests"
+          ],
+          "answer_language": "target",
+          "prompt_language": "english"
+        },
+        {
+          "id": "cafe-and-accusative-order",
+          "kind": "short_text",
+          "prompt": "Order tea politely: “Tea, please.”",
+          "accepted_answers": [
+            "Čaj, molim",
+            "Čaj, molim."
+          ],
+          "feedback": "Čaj, molim is a natural short order.",
+          "tags": [
+            "drinks",
+            "polite-requests"
+          ],
+          "answer_language": "target",
+          "prompt_language": "english"
+        },
+        {
+          "id": "cafe-and-accusative-form",
+          "kind": "transform",
+          "prompt": "Change voda to its object form in \"Molim ___.\"",
+          "accepted_answers": [
+            "vodu"
+          ],
+          "feedback": "The feminine noun voda becomes vodu in this direct-object request.",
+          "tags": [
+            "accusative-feminine"
+          ],
+          "answer_language": "target",
+          "prompt_segments": [
+            {
+              "text": "Change voda to its object form in \"",
+              "language": "english"
+            },
+            {
+              "text": "Molim ___.",
+              "language": "target"
+            },
+            {
+              "text": "\"",
+              "language": "english"
+            }
+          ],
+          "prompt_language": "mixed"
+        }
+      ],
+      "unit_id": "everyday-needs",
+      "unit_title": "Everyday needs",
+      "unit_objective": "Ask questions and handle simple purchases.",
+      "unit_order": 2
+    },
+    {
+      "id": "family-and-possessives",
+      "order": 8,
+      "level": "A1",
+      "title": "Talk about family",
+      "objective": "Name close family and make possessives agree with the noun.",
+      "teaching_note": "Family vocabulary includes majka, otac, brat, sestra and porodica. Possessives such as moj, moja and moje change to agree with the thing owned: moj brat, moja sestra, moje dete. Dete is used in Ekavian speech; dijete is an Ijekavian form.",
+      "new_vocabulary": [
+        "majka",
+        "otac",
+        "brat",
+        "sestra",
+        "žena",
+        "porodica",
+        "obitelj",
+        "moj",
+        "moja",
+        "moje"
+      ],
+      "review_vocabulary": [
+        "ja",
+        "biti",
+        "dobar"
+      ],
+      "vocabulary_tags": [
+        "family",
+        "possessions",
+        "people",
+        "regional-variation"
+      ],
+      "skill_tags": [
+        "reading",
+        "speaking",
+        "short-writing"
+      ],
+      "grammar_tags": [
+        "possessive-agreement",
+        "noun-gender"
+      ],
+      "prerequisites": [
+        "gender-and-adjectives",
+        "pronouns-and-biti"
+      ],
+      "examples": [
+        {
+          "target": "Ovo je moja sestra.",
+          "english": "This is my sister."
+        },
+        {
+          "target": "Moj brat je ovde.",
+          "english": "My brother is here."
+        },
+        {
+          "target": "Moja porodica je velika.",
+          "english": "My family is large.",
+          "note": "Obitelj is also common, especially in Croatian."
+        }
+      ],
+      "exercises": [
+        {
+          "id": "family-and-possessives-choice",
+          "kind": "choice",
+          "prompt": "Choose the usual phrase for “my sister.”",
+          "options": [
+            {
+              "id": "a",
+              "text": "moj sestra",
+              "language": "target"
+            },
+            {
+              "id": "b",
+              "text": "moja sestra",
+              "language": "target"
+            },
+            {
+              "id": "c",
+              "text": "moje sestra",
+              "language": "target"
+            }
+          ],
+          "accepted_answers": [
+            "b"
+          ],
+          "feedback": "Sestra is feminine, so the possessive is moja.",
+          "tags": [
+            "possessive-agreement",
+            "family"
+          ],
+          "answer_language": "target",
+          "prompt_language": "english"
+        },
+        {
+          "id": "family-and-possessives-translate",
+          "kind": "short_text",
+          "prompt": "Translate: This is my brother.",
+          "accepted_answers": [
+            "Ovo je moj brat",
+            "Ovo je moj brat."
+          ],
+          "feedback": "Moj agrees with the masculine noun brat.",
+          "tags": [
+            "family",
+            "possessive-agreement"
+          ],
+          "answer_language": "target",
+          "prompt_language": "english"
+        },
+        {
+          "id": "family-and-possessives-variant",
+          "kind": "dialogue_response",
+          "prompt": "Give a common Croatian alternative for porodica meaning “family.”",
+          "accepted_answers": [
+            "obitelj"
+          ],
+          "feedback": "Obitelj is common in Croatian; porodica is widely understood too.",
+          "tags": [
+            "family",
+            "regional-variation"
+          ],
+          "answer_language": "target",
+          "prompt_language": "mixed",
+          "prompt_segments": [
+            {
+              "text": "Give a common Croatian alternative for ",
+              "language": "english"
+            },
+            {
+              "text": "porodica",
+              "language": "target"
+            },
+            {
+              "text": " meaning “family.”",
+              "language": "english"
+            }
+          ]
+        }
+      ],
+      "unit_id": "everyday-needs",
+      "unit_title": "Everyday needs",
+      "unit_objective": "Ask questions and handle simple purchases.",
+      "unit_order": 2
+    },
+    {
+      "id": "numbers-and-prices",
+      "order": 9,
+      "level": "A1",
+      "title": "Count and ask the price",
+      "objective": "Use small numbers and ask how much something costs.",
+      "teaching_note": "Learn the numbers jedan, dva, tri, četiri, pet and deset in useful phrases. The form of one and two can agree with a noun's gender. Koliko košta? asks the price of one thing; kolika je cena/cijena? is another useful question for the price.",
+      "new_vocabulary": [
+        "jedan",
+        "dva",
+        "tri",
+        "četiri",
+        "pet",
+        "deset",
+        "koliko",
+        "koštati",
+        "cena",
+        "cijena"
+      ],
+      "review_vocabulary": [
+        "voda",
+        "kafa",
+        "molim"
+      ],
+      "vocabulary_tags": [
+        "numbers",
+        "shopping",
+        "prices"
+      ],
+      "skill_tags": [
+        "reading",
+        "conversation",
+        "numeracy"
+      ],
+      "grammar_tags": [
+        "number-agreement",
+        "price-questions"
+      ],
+      "prerequisites": [
+        "cafe-and-accusative"
+      ],
+      "examples": [
+        {
+          "target": "Jednu vodu, molim.",
+          "english": "One water, please.",
+          "note": "The object form is used in this café order."
+        },
+        {
+          "target": "Koliko košta čaj?",
+          "english": "How much does the tea cost?"
+        },
+        {
+          "target": "Dve kafe, molim.",
+          "alternatives": [
+            "Dvije kafe, molim.",
+            "Dvije kave, molim."
+          ],
+          "english": "Two coffees, please.",
+          "note": "Dve is Ekavian; dvije is Ijekavian. Kafa/kava preferences also vary."
+        }
+      ],
+      "exercises": [
+        {
+          "id": "numbers-and-prices-choice",
+          "kind": "choice",
+          "prompt": "Which phrase asks the price?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Koliko košta?",
+              "language": "target"
+            },
+            {
+              "id": "b",
+              "text": "Ko sam ja?",
+              "language": "target"
+            },
+            {
+              "id": "c",
+              "text": "Gde je voda?",
+              "language": "target"
+            }
+          ],
+          "accepted_answers": [
+            "a"
+          ],
+          "feedback": "Koliko košta? means “How much does it cost?”",
+          "tags": [
+            "price-questions"
+          ],
+          "answer_language": "target",
+          "prompt_language": "english"
+        },
+        {
+          "id": "numbers-and-prices-count-text",
+          "kind": "short_text",
+          "prompt": "Write “three” in the language.",
+          "accepted_answers": [
+            "tri"
+          ],
+          "feedback": "Tri means three.",
+          "tags": [
+            "numbers"
+          ],
+          "answer_language": "target",
+          "prompt_language": "english"
+        },
+        {
+          "id": "numbers-and-prices-order",
+          "kind": "dialogue_response",
+          "prompt": "Ask how much tea costs.",
+          "accepted_answers": [
+            "Koliko košta čaj",
+            "Koliko košta čaj?"
+          ],
+          "feedback": "Koliko košta + item asks how much that item costs.",
+          "tags": [
+            "shopping",
+            "price-questions"
+          ],
+          "answer_language": "target",
+          "prompt_language": "english"
+        }
+      ],
+      "unit_id": "everyday-needs",
+      "unit_title": "Everyday needs",
+      "unit_objective": "Ask questions and handle simple purchases.",
+      "unit_order": 2
+    },
+    {
+      "id": "days-and-clock-time",
+      "order": 10,
+      "level": "A1",
+      "title": "Make a simple plan",
+      "objective": "Use today, tomorrow and a basic clock-time question.",
+      "teaching_note": "Danas means today; juče or jučer means yesterday; sutra means tomorrow. Sjutra is also used in Montenegro. Koliko je sati? asks what time it is. Time expressions and date conventions can vary, so learn a practical phrase before memorizing a full counting system.",
+      "new_vocabulary": [
+        "danas",
+        "juče",
+        "jučer",
+        "sutra",
+        "sjutra",
+        "sati",
+        "kada",
+        "vidimo se"
+      ],
+      "review_vocabulary": [
+        "biti",
+        "tri"
+      ],
+      "vocabulary_tags": [
+        "days",
+        "time",
+        "planning",
+        "regional-variation"
+      ],
+      "skill_tags": [
+        "reading",
+        "conversation",
+        "speaking"
+      ],
+      "grammar_tags": [
+        "time-questions",
+        "future-time-adverbs"
+      ],
+      "prerequisites": [
+        "numbers-and-prices"
+      ],
+      "examples": [
+        {
+          "target": "Vidimo se sutra.",
+          "alternatives": [
+            "Vidimo se sjutra."
+          ],
+          "english": "See you tomorrow."
+        },
+        {
+          "target": "Koliko je sati?",
+          "english": "What time is it?"
+        },
+        {
+          "target": "Danas je petak.",
+          "english": "Today is Friday."
+        }
+      ],
+      "exercises": [
+        {
+          "id": "days-and-clock-time-choice",
+          "kind": "choice",
+          "prompt": "When is sutra?",
+          "options": [
+            {
+              "id": "a",
+              "text": "yesterday",
+              "language": "english"
+            },
+            {
+              "id": "b",
+              "text": "tomorrow",
+              "language": "english"
+            },
+            {
+              "id": "c",
+              "text": "today",
+              "language": "english"
+            }
+          ],
+          "accepted_answers": [
+            "b"
+          ],
+          "feedback": "Sutra means tomorrow; sjutra is another form used in Montenegro.",
+          "tags": [
+            "days",
+            "regional-variation"
+          ],
+          "answer_language": "english",
+          "prompt_segments": [
+            {
+              "text": "When is ",
+              "language": "english"
+            },
+            {
+              "text": "sutra?",
+              "language": "target"
+            }
+          ],
+          "prompt_language": "mixed"
+        },
+        {
+          "id": "days-and-clock-time-time-text",
+          "kind": "short_text",
+          "prompt": "Ask: What time is it?",
+          "accepted_answers": [
+            "Koliko je sati",
+            "Koliko je sati?"
+          ],
+          "feedback": "Koliko je sati? is the common time question.",
+          "tags": [
+            "time-questions"
+          ],
+          "answer_language": "target",
+          "prompt_language": "english"
+        },
+        {
+          "id": "days-and-clock-time-reply",
+          "kind": "dialogue_response",
+          "prompt": "Say “See you tomorrow,” using either common form.",
+          "accepted_answers": [
+            "Vidimo se sutra",
+            "Vidimo se sutra.",
+            "Vidimo se sjutra",
+            "Vidimo se sjutra."
+          ],
+          "feedback": "Both sutra and sjutra are used; the choice depends on speaker and region.",
+          "tags": [
+            "planning",
+            "days"
+          ],
+          "answer_language": "target",
+          "prompt_language": "english"
+        }
+      ],
+      "unit_id": "everyday-needs",
+      "unit_title": "Everyday needs",
+      "unit_objective": "Ask questions and handle simple purchases.",
+      "unit_order": 2
+    },
+    {
+      "id": "where-and-location",
+      "order": 11,
+      "level": "A1",
+      "title": "Ask where something is",
+      "objective": "Ask for a place and use a simple location phrase.",
+      "teaching_note": "Gde and gdje both mean where; gde is Ekavian and gdje is Ijekavian. Gde je hotel? asks where the hotel is. For a stationary location, u gradu means “in the city”; movement into the city is u grad.",
+      "new_vocabulary": [
+        "gde",
+        "gdje",
+        "hotel",
+        "grad",
+        "u gradu",
+        "u grad",
+        "ići",
+        "idem"
+      ],
+      "review_vocabulary": [
+        "dan",
+        "biti"
+      ],
+      "vocabulary_tags": [
+        "places",
+        "directions",
+        "location"
+      ],
+      "skill_tags": [
+        "reading",
+        "conversation",
+        "short-writing"
+      ],
+      "grammar_tags": [
+        "locative-location",
+        "accusative-direction"
+      ],
+      "prerequisites": [
+        "days-and-clock-time",
+        "questions-and-demonstratives"
+      ],
+      "examples": [
+        {
+          "target": "Gde je hotel?",
+          "alternatives": [
+            "Gdje je hotel?"
+          ],
+          "english": "Where is the hotel?"
+        },
+        {
+          "target": "Hotel je u gradu.",
+          "english": "The hotel is in the city."
+        },
+        {
+          "target": "Idem u grad.",
+          "english": "I am going to the city."
+        }
+      ],
+      "exercises": [
+        {
+          "id": "where-and-location-choice",
+          "kind": "choice",
+          "prompt": "Which question asks where the hotel is?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Gde je hotel?",
+              "language": "target"
+            },
+            {
+              "id": "b",
+              "text": "Koliko košta hotel?",
+              "language": "target"
+            },
+            {
+              "id": "c",
+              "text": "Ko je hotel?",
+              "language": "target"
+            }
+          ],
+          "accepted_answers": [
+            "a"
+          ],
+          "feedback": "Gde je hotel? and Gdje je hotel? both ask where the hotel is.",
+          "tags": [
+            "places",
+            "directions"
+          ],
+          "answer_language": "target",
+          "prompt_language": "english"
+        },
+        {
+          "id": "where-and-location-translate",
+          "kind": "short_text",
+          "prompt": "Translate: The hotel is in the city.",
+          "accepted_answers": [
+            "Hotel je u gradu",
+            "Hotel je u gradu."
+          ],
+          "feedback": "Use u gradu for a stationary location in the city.",
+          "tags": [
+            "locative-location"
+          ],
+          "answer_language": "target",
+          "prompt_language": "english"
+        },
+        {
+          "id": "where-and-location-contrast",
+          "kind": "transform",
+          "prompt": "Complete with the movement form: Idem ___ grad. (I am going to the city.)",
+          "accepted_answers": [
+            "u"
+          ],
+          "feedback": "With movement into the city, use u grad; for location, use u gradu.",
+          "tags": [
+            "accusative-direction"
+          ],
+          "answer_language": "target",
+          "prompt_segments": [
+            {
+              "text": "Complete with the movement form: ",
+              "language": "english"
+            },
+            {
+              "text": "Idem ___ grad.",
+              "language": "target"
+            },
+            {
+              "text": " (I am going to the city.)",
+              "language": "english"
+            }
+          ],
+          "prompt_language": "mixed"
+        }
+      ],
+      "unit_id": "getting-around",
+      "unit_title": "Getting around",
+      "unit_objective": "Make plans and find your way.",
+      "unit_order": 3
+    },
+    {
+      "id": "transport-and-directions",
+      "order": 12,
+      "level": "A1",
+      "title": "Find the station",
+      "objective": "Ask for the station and understand a few direction words.",
+      "teaching_note": "Stanica is a broadly understood word for station; Croatian also commonly uses kolodvor for a railway station. Levo or lijevo means left, desno means right, and pravo means straight ahead. These words work with short direction phrases.",
+      "new_vocabulary": [
+        "stanica",
+        "kolodvor",
+        "levo",
+        "lijevo",
+        "desno",
+        "pravo"
+      ],
+      "review_vocabulary": [
+        "gde",
+        "grad",
+        "hotel"
+      ],
+      "vocabulary_tags": [
+        "transport",
+        "directions",
+        "places",
+        "polite-requests"
+      ],
+      "skill_tags": [
+        "reading",
+        "conversation",
+        "speaking"
+      ],
+      "grammar_tags": [
+        "direction-adverbs",
+        "regional-variation",
+        "question-words"
+      ],
+      "prerequisites": [
+        "where-and-location"
+      ],
+      "examples": [
+        {
+          "target": "Gde je stanica?",
+          "alternatives": [
+            "Gdje je stanica?"
+          ],
+          "english": "Where is the station?"
+        },
+        {
+          "target": "Desno, pa pravo.",
+          "english": "Right, then straight ahead."
+        },
+        {
+          "target": "Kolodvor je blizu.",
+          "english": "The station is nearby.",
+          "note": "Kolodvor is common in Croatian for a railway station."
+        }
+      ],
+      "exercises": [
+        {
+          "id": "transport-and-directions-choice",
+          "kind": "choice",
+          "prompt": "What does desno mean?",
+          "options": [
+            {
+              "id": "a",
+              "text": "left",
+              "language": "target"
+            },
+            {
+              "id": "b",
+              "text": "right",
+              "language": "target"
+            },
+            {
+              "id": "c",
+              "text": "straight",
+              "language": "target"
+            }
+          ],
+          "accepted_answers": [
+            "b"
+          ],
+          "feedback": "Desno means right; pravo means straight and levo/lijevo means left.",
+          "tags": [
+            "directions"
+          ],
+          "answer_language": "target",
+          "prompt_segments": [
+            {
+              "text": "What does ",
+              "language": "english"
+            },
+            {
+              "text": "desno",
+              "language": "target"
+            },
+            {
+              "text": " mean?",
+              "language": "english"
+            }
+          ],
+          "prompt_language": "mixed"
+        },
+        {
+          "id": "transport-and-directions-ask",
+          "kind": "short_text",
+          "prompt": "Ask: Where is the station? Use either gde or gdje.",
+          "accepted_answers": [
+            "Gde je stanica",
+            "Gde je stanica?",
+            "Gdje je stanica",
+            "Gdje je stanica?"
+          ],
+          "feedback": "Both Gde je stanica? and Gdje je stanica? are useful forms.",
+          "tags": [
+            "transport",
+            "question-words"
+          ],
+          "answer_language": "target",
+          "prompt_segments": [
+            {
+              "text": "Ask: Where is the station? Use either ",
+              "language": "english"
+            },
+            {
+              "text": "gde",
+              "language": "target"
+            },
+            {
+              "text": " or ",
+              "language": "english"
+            },
+            {
+              "text": "gdje",
+              "language": "target"
+            },
+            {
+              "text": ".",
+              "language": "english"
+            }
+          ],
+          "prompt_language": "mixed"
+        },
+        {
+          "id": "transport-and-directions-dialogue",
+          "kind": "dialogue_response",
+          "prompt": "Tell a visitor to go straight ahead.",
+          "accepted_answers": [
+            "Idite pravo",
+            "Idite pravo."
+          ],
+          "feedback": "Idite is a polite or plural command; pravo means straight ahead.",
+          "tags": [
+            "directions",
+            "polite-requests"
+          ],
+          "answer_language": "target",
+          "prompt_language": "english"
+        }
+      ],
+      "unit_id": "getting-around",
+      "unit_title": "Getting around",
+      "unit_objective": "Make plans and find your way.",
+      "unit_order": 3
+    },
+    {
+      "id": "present-tense-routines",
+      "order": 13,
+      "level": "A1",
+      "title": "Describe a daily routine",
+      "objective": "Use a few present-tense verbs and time words in short statements.",
+      "teaching_note": "Present-tense endings vary by verb. Learn each useful verb with its forms: raditi includes radim, radiš, radi; živeti/živjeti includes živim, živiš, živi. The ending often identifies the subject, so a pronoun can be omitted.",
+      "new_vocabulary": [
+        "raditi",
+        "radim",
+        "živeti",
+        "živjeti",
+        "živim",
+        "često",
+        "uvek",
+        "uvijek"
+      ],
+      "review_vocabulary": [
+        "danas",
+        "ja",
+        "grad"
+      ],
+      "vocabulary_tags": [
+        "daily-routine",
+        "work",
+        "home"
+      ],
+      "skill_tags": [
+        "reading",
+        "speaking",
+        "short-writing"
+      ],
+      "grammar_tags": [
+        "present-tense",
+        "verb-conjugation",
+        "subject-pronouns"
+      ],
+      "prerequisites": [
+        "pronouns-and-biti",
+        "days-and-clock-time"
+      ],
+      "examples": [
+        {
+          "target": "Radim danas.",
+          "english": "I am working today."
+        },
+        {
+          "target": "Živim u gradu.",
+          "english": "I live in the city."
+        },
+        {
+          "target": "Često pijem čaj.",
+          "english": "I often drink tea."
+        }
+      ],
+      "exercises": [
+        {
+          "id": "present-tense-routines-choice",
+          "kind": "choice",
+          "prompt": "Complete: Ja ___ u gradu. (I live in the city.)",
+          "options": [
+            {
+              "id": "a",
+              "text": "živi",
+              "language": "target"
+            },
+            {
+              "id": "b",
+              "text": "živim",
+              "language": "target"
+            },
+            {
+              "id": "c",
+              "text": "živimo",
+              "language": "target"
+            }
+          ],
+          "accepted_answers": [
+            "b"
+          ],
+          "feedback": "Živim is the first-person singular form.",
+          "tags": [
+            "present-tense",
+            "verb-conjugation"
+          ],
+          "answer_language": "target",
+          "prompt_segments": [
+            {
+              "text": "Complete: ",
+              "language": "english"
+            },
+            {
+              "text": "Ja ___ u gradu.",
+              "language": "target"
+            },
+            {
+              "text": " (I live in the city.)",
+              "language": "english"
+            }
+          ],
+          "prompt_language": "mixed"
+        },
+        {
+          "id": "present-tense-routines-translate",
+          "kind": "short_text",
+          "prompt": "Translate: I work today.",
+          "accepted_answers": [
+            "Radim danas",
+            "Radim danas."
+          ],
+          "feedback": "Radim is the first-person singular form of raditi.",
+          "tags": [
+            "daily-routine",
+            "present-tense"
+          ],
+          "answer_language": "target",
+          "prompt_language": "english"
+        },
+        {
+          "id": "present-tense-routines-subject",
+          "kind": "transform",
+          "prompt": "Add the explicit subject \"I\" to Radim danas.",
+          "accepted_answers": [
+            "Ja radim danas",
+            "Ja radim danas."
+          ],
+          "feedback": "Ja can be added for emphasis or clarity, even though radim already marks first person.",
+          "tags": [
+            "subject-pronouns"
+          ],
+          "answer_language": "target",
+          "prompt_segments": [
+            {
+              "text": "Add the explicit subject \"I\" to ",
+              "language": "english"
+            },
+            {
+              "text": "Radim danas.",
+              "language": "target"
+            }
+          ],
+          "prompt_language": "mixed"
+        }
+      ],
+      "unit_id": "getting-around",
+      "unit_title": "Getting around",
+      "unit_objective": "Make plans and find your way.",
+      "unit_order": 3
+    },
+    {
+      "id": "can-want-and-need",
+      "order": 14,
+      "level": "A1",
+      "title": "Say what you can, want and need",
+      "objective": "Use mogu, želim and trebam in practical requests.",
+      "teaching_note": "Moći means to be able to; želim means I want or would like. Trebam and treba mi are both useful, though preferred constructions vary by region and sentence. Infinitive and da + present constructions are both used after some modal verbs; notice the form you hear locally.",
+      "new_vocabulary": [
+        "moći",
+        "mogu",
+        "hteti",
+        "htjeti",
+        "želim",
+        "trebati",
+        "treba",
+        "treba mi",
+        "pomoć"
+      ],
+      "review_vocabulary": [
+        "voda",
+        "čaj",
+        "molim"
+      ],
+      "vocabulary_tags": [
+        "ability",
+        "wants",
+        "needs",
+        "polite-requests"
+      ],
+      "skill_tags": [
+        "reading",
+        "conversation",
+        "short-writing"
+      ],
+      "grammar_tags": [
+        "modal-verbs",
+        "da-construction",
+        "infinitive"
+      ],
+      "prerequisites": [
+        "present-tense-routines",
+        "cafe-and-accusative"
+      ],
+      "examples": [
+        {
+          "target": "Mogu da pomognem.",
+          "alternatives": [
+            "Mogu pomoći."
+          ],
+          "english": "I can help."
+        },
+        {
+          "target": "Želim vodu, molim.",
+          "english": "I would like water, please."
+        },
+        {
+          "target": "Treba mi pomoć.",
+          "english": "I need help."
+        }
+      ],
+      "exercises": [
+        {
+          "id": "can-want-and-need-choice",
+          "kind": "choice",
+          "prompt": "Which sentence means “I can help”?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Mogu da pomognem.",
+              "language": "target"
+            },
+            {
+              "id": "b",
+              "text": "Ne znam.",
+              "language": "target"
+            },
+            {
+              "id": "c",
+              "text": "Dobar dan.",
+              "language": "target"
+            }
+          ],
+          "accepted_answers": [
+            "a"
+          ],
+          "feedback": "Mogu means “I can”; da pomognem is one common construction.",
+          "tags": [
+            "ability",
+            "modal-verbs"
+          ],
+          "answer_language": "target",
+          "prompt_language": "english"
+        },
+        {
+          "id": "can-want-and-need-translate",
+          "kind": "short_text",
+          "prompt": "Translate: I need help.",
+          "accepted_answers": [
+            "Treba mi pomoć",
+            "Treba mi pomoć."
+          ],
+          "feedback": "Treba mi pomoć is a common way to say “I need help.”",
+          "tags": [
+            "needs"
+          ],
+          "answer_language": "target",
+          "prompt_language": "english"
+        },
+        {
+          "id": "can-want-and-need-dialogue",
+          "kind": "dialogue_response",
+          "prompt": "Politely say that you would like water.",
+          "accepted_answers": [
+            "Želim vodu, molim",
+            "Želim vodu, molim."
+          ],
+          "feedback": "Želim means I want or would like; vodu is the object form of voda.",
+          "tags": [
+            "wants",
+            "polite-requests"
+          ],
+          "answer_language": "target",
+          "prompt_language": "english"
+        }
+      ],
+      "unit_id": "getting-around",
+      "unit_title": "Getting around",
+      "unit_objective": "Make plans and find your way.",
+      "unit_order": 3
+    },
+    {
+      "id": "future-plans",
+      "order": 15,
+      "level": "A1",
+      "title": "Talk about tomorrow",
+      "objective": "Make a simple future plan with ću and a verb.",
+      "teaching_note": "A common future pattern uses a short form of hteti/htjeti with an infinitive: Sutra ću raditi, “Tomorrow I will work.” In ordinary writing, the short form can appear before or after the infinitive in a clause, as in ću doći and doći ću. Regional forms and placement deserve listening practice.",
+      "new_vocabulary": [
+        "ću",
+        "ćeš",
+        "će",
+        "doći",
+        "raditi",
+        "sutra"
+      ],
+      "review_vocabulary": [
+        "danas",
+        "vidimo se",
+        "mogu"
+      ],
+      "vocabulary_tags": [
+        "future",
+        "planning",
+        "days"
+      ],
+      "skill_tags": [
+        "reading",
+        "conversation",
+        "short-writing"
+      ],
+      "grammar_tags": [
+        "future-i",
+        "auxiliary-hteti",
+        "questions"
+      ],
+      "prerequisites": [
+        "can-want-and-need",
+        "days-and-clock-time"
+      ],
+      "examples": [
+        {
+          "target": "Sutra ću raditi.",
+          "english": "I will work tomorrow."
+        },
+        {
+          "target": "Doći ću kasnije.",
+          "english": "I will come later."
+        },
+        {
+          "target": "Hoćeš li doći?",
+          "english": "Will you come?"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "future-plans-choice",
+          "kind": "choice",
+          "prompt": "Which phrase means “I will come tomorrow”?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Doći ću sutra.",
+              "language": "target"
+            },
+            {
+              "id": "b",
+              "text": "Došao sam juče.",
+              "language": "target"
+            },
+            {
+              "id": "c",
+              "text": "Dolazim sada.",
+              "language": "target"
+            }
+          ],
+          "accepted_answers": [
+            "a"
+          ],
+          "feedback": "Doći ću is a future form; sutra means tomorrow.",
+          "tags": [
+            "future-i",
+            "planning"
+          ],
+          "answer_language": "target",
+          "prompt_language": "english"
+        },
+        {
+          "id": "future-plans-write",
+          "kind": "short_text",
+          "prompt": "Translate: I will work tomorrow.",
+          "accepted_answers": [
+            "Sutra ću raditi",
+            "Sutra ću raditi."
+          ],
+          "feedback": "Sutra ću raditi uses a future form of hteti plus the infinitive.",
+          "tags": [
+            "future-i",
+            "days"
+          ],
+          "answer_language": "target",
+          "prompt_language": "english"
+        },
+        {
+          "id": "future-plans-question",
+          "kind": "dialogue_response",
+          "prompt": "Ask a friend: “Will you come?”",
+          "accepted_answers": [
+            "Hoćeš li doći",
+            "Hoćeš li doći?"
+          ],
+          "feedback": "Hoćeš li doći? is a familiar singular question.",
+          "tags": [
+            "future-i",
+            "questions"
+          ],
+          "answer_language": "target",
+          "prompt_language": "english"
+        }
+      ],
+      "unit_id": "getting-around",
+      "unit_title": "Getting around",
+      "unit_objective": "Make plans and find your way.",
+      "unit_order": 3
+    },
+    {
+      "id": "past-tense-yesterday",
+      "order": 16,
+      "level": "A2",
+      "title": "Say what happened yesterday",
+      "objective": "Build the past tense with an auxiliary and a gendered participle.",
+      "teaching_note": "The usual past tense combines a short form of biti with an l-participle: Ana je došla, Marko je došao, and they su došli. The participle changes for gender and number. The auxiliary is often placed after the first stressed word.",
+      "new_vocabulary": [
+        "došao",
+        "došla",
+        "došli",
+        "bio",
+        "bila",
+        "radila"
+      ],
+      "review_vocabulary": [
+        "juče",
+        "jučer",
+        "biti",
+        "grad"
+      ],
+      "vocabulary_tags": [
+        "past-events",
+        "yesterday",
+        "people"
+      ],
+      "skill_tags": [
+        "reading",
+        "conversation",
+        "short-writing"
+      ],
+      "grammar_tags": [
+        "past-tense",
+        "l-participle",
+        "gender-and-number"
+      ],
+      "prerequisites": [
+        "gender-and-adjectives",
+        "future-plans"
+      ],
+      "examples": [
+        {
+          "target": "Ana je došla juče.",
+          "alternatives": [
+            "Ana je došla jučer."
+          ],
+          "english": "Ana came yesterday."
+        },
+        {
+          "target": "Marko je radio.",
+          "english": "Marko worked."
+        },
+        {
+          "target": "Ana i Marko su došli.",
+          "english": "Ana and Marko came."
+        }
+      ],
+      "exercises": [
+        {
+          "id": "past-tense-yesterday-choice",
+          "kind": "choice",
+          "prompt": "Choose the usual form for a woman: Ana je ___.",
+          "options": [
+            {
+              "id": "a",
+              "text": "došao",
+              "language": "target"
+            },
+            {
+              "id": "b",
+              "text": "došla",
+              "language": "target"
+            },
+            {
+              "id": "c",
+              "text": "došli",
+              "language": "target"
+            }
+          ],
+          "accepted_answers": [
+            "b"
+          ],
+          "feedback": "Došla is the feminine singular participle.",
+          "tags": [
+            "l-participle",
+            "gender-and-number"
+          ],
+          "answer_language": "target",
+          "prompt_segments": [
+            {
+              "text": "Choose the usual form for a woman: ",
+              "language": "english"
+            },
+            {
+              "text": "Ana je ___.",
+              "language": "target"
+            }
+          ],
+          "prompt_language": "mixed"
+        },
+        {
+          "id": "past-tense-yesterday-write",
+          "kind": "short_text",
+          "prompt": "Translate: Marko worked.",
+          "accepted_answers": [
+            "Marko je radio",
+            "Marko je radio."
+          ],
+          "feedback": "Je is the auxiliary, and radio is the masculine singular participle.",
+          "tags": [
+            "past-tense",
+            "l-participle"
+          ],
+          "answer_language": "target",
+          "prompt_language": "english"
+        },
+        {
+          "id": "past-tense-yesterday-transform",
+          "kind": "transform",
+          "prompt": "Join these into one sentence with a plural subject: Ana je došla. Marko je došao.",
+          "accepted_answers": [
+            "Ana i Marko su došli",
+            "Ana i Marko su došli."
+          ],
+          "feedback": "A masculine and feminine mixed group commonly takes došli with the plural auxiliary su.",
+          "tags": [
+            "past-tense",
+            "gender-and-number"
+          ],
+          "answer_language": "target",
+          "prompt_segments": [
+            {
+              "text": "Join these into one sentence with a plural subject: ",
+              "language": "english"
+            },
+            {
+              "text": "Ana je došla. Marko je došao.",
+              "language": "target"
+            }
+          ],
+          "prompt_language": "mixed"
+        }
+      ],
+      "unit_id": "talk-about-life",
+      "unit_title": "Talk about life",
+      "unit_objective": "Describe actions, needs and places.",
+      "unit_order": 4
+    },
+    {
+      "id": "objects-and-accusative",
+      "order": 17,
+      "level": "A2",
+      "title": "Say what you see and want",
+      "objective": "Use common accusative objects, including an animate masculine noun.",
+      "teaching_note": "A direct object often changes form. Feminine voda becomes vodu; masculine animate čovek/čovjek becomes čoveka/čovjeka. Not every noun has the same visible ending, so learn frequent phrases with their cases.",
+      "new_vocabulary": [
+        "videti",
+        "vidjeti",
+        "vidim",
+        "čovek",
+        "čovjek",
+        "čoveka",
+        "čovjeka"
+      ],
+      "review_vocabulary": [
+        "voda",
+        "vodu",
+        "žena"
+      ],
+      "vocabulary_tags": [
+        "objects",
+        "people",
+        "seeing",
+        "regional-variation"
+      ],
+      "skill_tags": [
+        "reading",
+        "speaking",
+        "short-writing"
+      ],
+      "grammar_tags": [
+        "accusative",
+        "animate-masculine"
+      ],
+      "prerequisites": [
+        "cafe-and-accusative",
+        "present-tense-routines"
+      ],
+      "examples": [
+        {
+          "target": "Vidim vodu.",
+          "english": "I see water."
+        },
+        {
+          "target": "Vidim čoveka.",
+          "alternatives": [
+            "Vidim čovjeka."
+          ],
+          "english": "I see a man/person."
+        },
+        {
+          "target": "Vidim ženu.",
+          "english": "I see a woman."
+        }
+      ],
+      "exercises": [
+        {
+          "id": "objects-and-accusative-choice",
+          "kind": "choice",
+          "prompt": "Choose the usual object form: Vidim ___ (water).",
+          "options": [
+            {
+              "id": "a",
+              "text": "voda",
+              "language": "target"
+            },
+            {
+              "id": "b",
+              "text": "vodu",
+              "language": "target"
+            },
+            {
+              "id": "c",
+              "text": "vodi",
+              "language": "target"
+            }
+          ],
+          "accepted_answers": [
+            "b"
+          ],
+          "feedback": "Vodu is the direct-object form in this sentence.",
+          "tags": [
+            "accusative"
+          ],
+          "answer_language": "target",
+          "prompt_segments": [
+            {
+              "text": "Choose the usual object form: ",
+              "language": "english"
+            },
+            {
+              "text": "Vidim ___",
+              "language": "target"
+            },
+            {
+              "text": " (water).",
+              "language": "english"
+            }
+          ],
+          "prompt_language": "mixed"
+        },
+        {
+          "id": "objects-and-accusative-write",
+          "kind": "short_text",
+          "prompt": "Write “I see a man/person,” using either Ekavian or Ijekavian.",
+          "accepted_answers": [
+            "Vidim čoveka",
+            "Vidim čoveka.",
+            "Vidim čovjeka",
+            "Vidim čovjeka."
+          ],
+          "feedback": "Čoveka is Ekavian; čovjeka is Ijekavian. Both are accepted.",
+          "tags": [
+            "accusative",
+            "regional-variation"
+          ],
+          "answer_language": "target",
+          "prompt_language": "english"
+        },
+        {
+          "id": "objects-and-accusative-dialogue",
+          "kind": "dialogue_response",
+          "prompt": "Say that you see a woman.",
+          "accepted_answers": [
+            "Vidim ženu",
+            "Vidim ženu."
+          ],
+          "feedback": "Ženu is the object form of žena.",
+          "tags": [
+            "accusative",
+            "people"
+          ],
+          "answer_language": "target",
+          "prompt_language": "english"
+        }
+      ],
+      "unit_id": "talk-about-life",
+      "unit_title": "Talk about life",
+      "unit_objective": "Describe actions, needs and places.",
+      "unit_order": 4
+    },
+    {
+      "id": "genitive-and-amounts",
+      "order": 18,
+      "level": "A2",
+      "title": "Talk about amounts and absence",
+      "objective": "Recognize common genitive forms after quantities and nema.",
+      "teaching_note": "The genitive appears in many patterns. Nema vode means “there is no water,” and čaša vode means “a glass of water.” Numbers above four often take a genitive plural, but number phrases have details and exceptions; learn common chunks first.",
+      "new_vocabulary": [
+        "nema",
+        "čaša",
+        "vode",
+        "vremena",
+        "ljudi",
+        "mnogo"
+      ],
+      "review_vocabulary": [
+        "voda",
+        "jedan",
+        "dva",
+        "pet"
+      ],
+      "vocabulary_tags": [
+        "amounts",
+        "absence",
+        "food-and-drink"
+      ],
+      "skill_tags": [
+        "reading",
+        "conversation",
+        "short-writing"
+      ],
+      "grammar_tags": [
+        "genitive",
+        "quantities",
+        "nema"
+      ],
+      "prerequisites": [
+        "numbers-and-prices",
+        "objects-and-accusative"
+      ],
+      "examples": [
+        {
+          "target": "Nema vode.",
+          "english": "There is no water."
+        },
+        {
+          "target": "Čaša vode, molim.",
+          "english": "A glass of water, please."
+        },
+        {
+          "target": "Imam mnogo vremena.",
+          "english": "I have a lot of time."
+        }
+      ],
+      "exercises": [
+        {
+          "id": "genitive-and-amounts-choice",
+          "kind": "choice",
+          "prompt": "Complete the common phrase: Nema ___. (There is no water.)",
+          "options": [
+            {
+              "id": "a",
+              "text": "voda",
+              "language": "target"
+            },
+            {
+              "id": "b",
+              "text": "vode",
+              "language": "target"
+            },
+            {
+              "id": "c",
+              "text": "vodu",
+              "language": "target"
+            }
+          ],
+          "accepted_answers": [
+            "b"
+          ],
+          "feedback": "Nema is commonly followed by the genitive; voda becomes vode.",
+          "tags": [
+            "genitive",
+            "nema"
+          ],
+          "answer_language": "target",
+          "prompt_segments": [
+            {
+              "text": "Complete the common phrase: ",
+              "language": "english"
+            },
+            {
+              "text": "Nema ___.",
+              "language": "target"
+            },
+            {
+              "text": " (There is no water.)",
+              "language": "english"
+            }
+          ],
+          "prompt_language": "mixed"
+        },
+        {
+          "id": "genitive-and-amounts-write",
+          "kind": "short_text",
+          "prompt": "Translate: A glass of water, please.",
+          "accepted_answers": [
+            "Čaša vode, molim",
+            "Čaša vode, molim."
+          ],
+          "feedback": "Vode is the genitive form after čaša in this phrase.",
+          "tags": [
+            "genitive",
+            "amounts"
+          ],
+          "answer_language": "target",
+          "prompt_language": "english"
+        },
+        {
+          "id": "genitive-and-amounts-amount",
+          "kind": "dialogue_response",
+          "prompt": "Say “I have a lot of time.”",
+          "accepted_answers": [
+            "Imam mnogo vremena",
+            "Imam mnogo vremena."
+          ],
+          "feedback": "Vremena is the genitive form used after mnogo in this expression.",
+          "tags": [
+            "quantities",
+            "genitive"
+          ],
+          "answer_language": "target",
+          "prompt_language": "english"
+        }
+      ],
+      "unit_id": "talk-about-life",
+      "unit_title": "Talk about life",
+      "unit_objective": "Describe actions, needs and places.",
+      "unit_order": 4
+    },
+    {
+      "id": "dative-and-needs",
+      "order": 19,
+      "level": "A2",
+      "title": "Say who needs or receives something",
+      "objective": "Use a basic dative recipient and the phrase treba mi.",
+      "teaching_note": "The dative often marks a recipient or the person affected. In Treba mi voda, mi means “to me” and voda is the thing needed. For a named recipient, Ana gets the dative form Ani: Dajem Ani knjigu, “I give Ana a book.”",
+      "new_vocabulary": [
+        "meni",
+        "mi",
+        "tebi",
+        "ti",
+        "dati",
+        "dajem",
+        "Ani",
+        "knjiga",
+        "knjigu"
+      ],
+      "review_vocabulary": [
+        "treba",
+        "voda",
+        "pomoć"
+      ],
+      "vocabulary_tags": [
+        "needs",
+        "giving",
+        "people"
+      ],
+      "skill_tags": [
+        "reading",
+        "conversation",
+        "short-writing"
+      ],
+      "grammar_tags": [
+        "dative",
+        "clitic-pronouns"
+      ],
+      "prerequisites": [
+        "genitive-and-amounts",
+        "can-want-and-need"
+      ],
+      "examples": [
+        {
+          "target": "Treba mi voda.",
+          "english": "I need water."
+        },
+        {
+          "target": "Dajem Ani knjigu.",
+          "english": "I am giving Ana a book."
+        },
+        {
+          "target": "Treba li ti pomoć?",
+          "english": "Do you need help?"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "dative-and-needs-choice",
+          "kind": "choice",
+          "prompt": "In Treba mi voda, what does mi mean?",
+          "options": [
+            {
+              "id": "a",
+              "text": "to me",
+              "language": "english"
+            },
+            {
+              "id": "b",
+              "text": "from me",
+              "language": "english"
+            },
+            {
+              "id": "c",
+              "text": "with me",
+              "language": "english"
+            }
+          ],
+          "accepted_answers": [
+            "a"
+          ],
+          "feedback": "Mi is the short dative pronoun meaning to me here.",
+          "tags": [
+            "dative",
+            "clitic-pronouns"
+          ],
+          "answer_language": "english",
+          "prompt_segments": [
+            {
+              "text": "In ",
+              "language": "english"
+            },
+            {
+              "text": "Treba mi voda",
+              "language": "target"
+            },
+            {
+              "text": ", what does ",
+              "language": "english"
+            },
+            {
+              "text": "mi",
+              "language": "target"
+            },
+            {
+              "text": " mean?",
+              "language": "english"
+            }
+          ],
+          "prompt_language": "mixed"
+        },
+        {
+          "id": "dative-and-needs-write",
+          "kind": "short_text",
+          "prompt": "Say: I need water.",
+          "accepted_answers": [
+            "Treba mi voda",
+            "Treba mi voda."
+          ],
+          "feedback": "Treba mi voda is a common impersonal pattern for “I need water.”",
+          "tags": [
+            "needs",
+            "dative"
+          ],
+          "answer_language": "target",
+          "prompt_language": "english"
+        },
+        {
+          "id": "dative-and-needs-recipient",
+          "kind": "transform",
+          "prompt": "Change Ana to the recipient form: Dajem ___ knjigu.",
+          "accepted_answers": [
+            "Ani"
+          ],
+          "feedback": "Ani is the dative form of Ana.",
+          "tags": [
+            "dative",
+            "giving"
+          ],
+          "answer_language": "target",
+          "prompt_language": "mixed",
+          "prompt_segments": [
+            {
+              "text": "Change Ana to the recipient form: ",
+              "language": "english"
+            },
+            {
+              "text": "Dajem ___ knjigu.",
+              "language": "target"
+            }
+          ]
+        }
+      ],
+      "unit_id": "talk-about-life",
+      "unit_title": "Talk about life",
+      "unit_objective": "Describe actions, needs and places.",
+      "unit_order": 4
+    },
+    {
+      "id": "prepositions-and-cases",
+      "order": 20,
+      "level": "A2",
+      "title": "Use common place prepositions",
+      "objective": "Recognize movement, location and origin in short phrases.",
+      "teaching_note": "U and na can take different cases depending on meaning: u gradu is location, u grad is movement into the city. Iz and od commonly take the genitive: iz grada means from the city; od prijatelja means from a friend. Learn the whole phrase with its meaning.",
+      "new_vocabulary": [
+        "iz",
+        "od",
+        "bez",
+        "na stanici",
+        "na stanicu",
+        "iz grada"
+      ],
+      "review_vocabulary": [
+        "grad",
+        "stanica",
+        "u gradu",
+        "u grad"
+      ],
+      "vocabulary_tags": [
+        "places",
+        "movement",
+        "origin"
+      ],
+      "skill_tags": [
+        "reading",
+        "speaking",
+        "short-writing"
+      ],
+      "grammar_tags": [
+        "prepositions",
+        "locative",
+        "accusative",
+        "genitive"
+      ],
+      "prerequisites": [
+        "where-and-location",
+        "transport-and-directions",
+        "genitive-and-amounts"
+      ],
+      "examples": [
+        {
+          "target": "Čekam na stanici.",
+          "english": "I am waiting at the station."
+        },
+        {
+          "target": "Idem na stanicu.",
+          "english": "I am going to the station."
+        },
+        {
+          "target": "Dolazim iz grada.",
+          "english": "I am coming from the city."
+        }
+      ],
+      "exercises": [
+        {
+          "id": "prepositions-and-cases-choice",
+          "kind": "choice",
+          "prompt": "Which phrase means “I am at the station”?",
+          "options": [
+            {
+              "id": "a",
+              "text": "na stanicu",
+              "language": "target"
+            },
+            {
+              "id": "b",
+              "text": "na stanici",
+              "language": "target"
+            },
+            {
+              "id": "c",
+              "text": "iz stanice",
+              "language": "target"
+            }
+          ],
+          "accepted_answers": [
+            "b"
+          ],
+          "feedback": "Na stanici expresses a stationary location; na stanicu expresses movement to it.",
+          "tags": [
+            "prepositions",
+            "locative"
+          ],
+          "answer_language": "target",
+          "prompt_language": "english"
+        },
+        {
+          "id": "prepositions-and-cases-translate",
+          "kind": "short_text",
+          "prompt": "Translate: I am coming from the city.",
+          "accepted_answers": [
+            "Dolazim iz grada",
+            "Dolazim iz grada."
+          ],
+          "feedback": "Iz grada means from the city.",
+          "tags": [
+            "origin",
+            "genitive"
+          ],
+          "answer_language": "target",
+          "prompt_language": "english"
+        },
+        {
+          "id": "prepositions-and-cases-contrast",
+          "kind": "transform",
+          "prompt": "Choose the movement phrase for “I am going to the station.”",
+          "accepted_answers": [
+            "Idem na stanicu",
+            "Idem na stanicu."
+          ],
+          "feedback": "Na stanicu expresses movement toward the station; na stanici is a location.",
+          "tags": [
+            "movement",
+            "accusative"
+          ],
+          "answer_language": "target",
+          "prompt_language": "english"
+        }
+      ],
+      "unit_id": "talk-about-life",
+      "unit_title": "Talk about life",
+      "unit_objective": "Describe actions, needs and places.",
+      "unit_order": 4
+    },
+    {
+      "id": "reflexive-daily-actions",
+      "order": 21,
+      "level": "A2",
+      "title": "Use everyday reflexive verbs",
+      "objective": "Recognize se in common routines and reciprocal phrases.",
+      "teaching_note": "Some verbs are commonly used with the reflexive clitic se, whose meaning depends on the verb. Zovem se is the name formula, perem se means I wash myself, and vidimo se means we will see each other. Do not translate se with one fixed English word in every phrase.",
+      "new_vocabulary": [
+        "se",
+        "prati se",
+        "perem se",
+        "zovem se",
+        "vidimo se"
+      ],
+      "review_vocabulary": [
+        "ja",
+        "ime",
+        "sutra"
+      ],
+      "vocabulary_tags": [
+        "daily-routine",
+        "names",
+        "meeting"
+      ],
+      "skill_tags": [
+        "reading",
+        "conversation",
+        "short-writing"
+      ],
+      "grammar_tags": [
+        "reflexive-clitic",
+        "reciprocal-verbs"
+      ],
+      "prerequisites": [
+        "hello-and-introductions",
+        "present-tense-routines"
+      ],
+      "examples": [
+        {
+          "target": "Zovem se Ana.",
+          "english": "My name is Ana."
+        },
+        {
+          "target": "Perem se ujutru.",
+          "english": "I wash in the morning."
+        },
+        {
+          "target": "Vidimo se kasnije.",
+          "english": "See you later."
+        }
+      ],
+      "exercises": [
+        {
+          "id": "reflexive-daily-actions-choice",
+          "kind": "choice",
+          "prompt": "Which expression is the usual way to introduce your name?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Zovem se Ana.",
+              "language": "target"
+            },
+            {
+              "id": "b",
+              "text": "Perem Ana.",
+              "language": "target"
+            },
+            {
+              "id": "c",
+              "text": "Vidim se Ana.",
+              "language": "target"
+            }
+          ],
+          "accepted_answers": [
+            "a"
+          ],
+          "feedback": "Zovem se is the usual name-introduction formula.",
+          "tags": [
+            "reflexive-clitic",
+            "names"
+          ],
+          "answer_language": "target",
+          "prompt_language": "english"
+        },
+        {
+          "id": "reflexive-daily-actions-translate",
+          "kind": "short_text",
+          "prompt": "Translate: See you later.",
+          "accepted_answers": [
+            "Vidimo se kasnije",
+            "Vidimo se kasnije!"
+          ],
+          "feedback": "Vidimo se kasnije means “See you later.”",
+          "tags": [
+            "reciprocal-verbs",
+            "meeting"
+          ],
+          "answer_language": "target",
+          "prompt_language": "english"
+        },
+        {
+          "id": "reflexive-daily-actions-meaning",
+          "kind": "short_text",
+          "prompt": "Explain briefly: Does se always translate as “self”?",
+          "accepted_answers": [
+            "No",
+            "No.",
+            "No; its meaning depends on the verb."
+          ],
+          "feedback": "Se has different functions; in vidimo se it is reciprocal, while zovem se is a name formula.",
+          "tags": [
+            "reflexive-clitic"
+          ],
+          "answer_language": "english",
+          "prompt_language": "mixed",
+          "prompt_segments": [
+            {
+              "text": "Explain briefly: Does ",
+              "language": "english"
+            },
+            {
+              "text": "se",
+              "language": "target"
+            },
+            {
+              "text": " always translate as “self”?",
+              "language": "english"
+            }
+          ]
+        }
+      ],
+      "unit_id": "build-conversations",
+      "unit_title": "Build conversations",
+      "unit_objective": "Make requests and connect ideas.",
+      "unit_order": 5
+    },
+    {
+      "id": "polite-imperatives",
+      "order": 22,
+      "level": "A2",
+      "title": "Give a polite request",
+      "objective": "Use polite or plural imperative forms in common requests.",
+      "teaching_note": "The polite or plural imperative is useful with strangers: Recite, “Say/tell”; govorite, “speak”; čekajte, “wait.” Molim vas softens the request. Keep the verb and politeness marker together in useful chunks.",
+      "new_vocabulary": [
+        "recite",
+        "govorite",
+        "čekajte",
+        "ponoviti",
+        "molim vas",
+        "sporije",
+        "engleski"
+      ],
+      "review_vocabulary": [
+        "hvala"
+      ],
+      "vocabulary_tags": [
+        "politeness",
+        "requests",
+        "communication"
+      ],
+      "skill_tags": [
+        "reading",
+        "conversation",
+        "speaking"
+      ],
+      "grammar_tags": [
+        "imperative",
+        "formal-address"
+      ],
+      "prerequisites": [
+        "hello-and-introductions",
+        "can-want-and-need"
+      ],
+      "examples": [
+        {
+          "target": "Govorite polako, molim vas.",
+          "english": "Please speak slowly."
+        },
+        {
+          "target": "Recite još jednom, molim.",
+          "english": "Please say it one more time."
+        },
+        {
+          "target": "Sačekajte ovde.",
+          "english": "Wait here, please."
+        }
+      ],
+      "exercises": [
+        {
+          "id": "polite-imperatives-choice",
+          "kind": "choice",
+          "prompt": "Which phrase politely asks someone to speak slowly?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Govorite polako, molim vas.",
+              "language": "target"
+            },
+            {
+              "id": "b",
+              "text": "Govoriš polako.",
+              "language": "target"
+            },
+            {
+              "id": "c",
+              "text": "Ja govorim juče.",
+              "language": "target"
+            }
+          ],
+          "accepted_answers": [
+            "a"
+          ],
+          "feedback": "Govorite is polite singular or plural; molim vas adds politeness.",
+          "tags": [
+            "imperative",
+            "politeness"
+          ],
+          "answer_language": "target",
+          "prompt_language": "english"
+        },
+        {
+          "id": "polite-imperatives-ask-repeat",
+          "kind": "short_text",
+          "prompt": "Ask someone politely to say it once more.",
+          "accepted_answers": [
+            "Recite još jednom, molim",
+            "Recite još jednom, molim."
+          ],
+          "feedback": "Recite is the polite or plural imperative of reći.",
+          "tags": [
+            "requests",
+            "communication"
+          ],
+          "answer_language": "target",
+          "prompt_language": "english"
+        },
+        {
+          "id": "polite-imperatives-soften",
+          "kind": "transform",
+          "prompt": "Add a polite closing to Čekajte ovde.",
+          "accepted_answers": [
+            "Čekajte ovde, molim vas",
+            "Čekajte ovde, molim vas."
+          ],
+          "feedback": "Molim vas is a useful polite addition to a request.",
+          "tags": [
+            "politeness"
+          ],
+          "answer_language": "target",
+          "prompt_language": "mixed",
+          "prompt_segments": [
+            {
+              "text": "Add a polite closing to ",
+              "language": "english"
+            },
+            {
+              "text": "Čekajte ovde.",
+              "language": "target"
+            }
+          ]
+        }
+      ],
+      "unit_id": "build-conversations",
+      "unit_title": "Build conversations",
+      "unit_objective": "Make requests and connect ideas.",
+      "unit_order": 5
+    },
+    {
+      "id": "comparisons",
+      "order": 23,
+      "level": "A2",
+      "title": "Compare things",
+      "objective": "Use common comparative adjectives and a simple comparison.",
+      "teaching_note": "Common comparative forms include veći, manji and bolji. Use od with a noun phrase (veći od Beograda) and nego što with a clause (veći nego što sam mislio). Comparative forms may be irregular, so learn high-frequency pairs as vocabulary.",
+      "new_vocabulary": [
+        "veći",
+        "manji",
+        "bolji",
+        "nego",
+        "ovaj",
+        "onaj"
+      ],
+      "review_vocabulary": [
+        "dobar",
+        "hotel",
+        "grad"
+      ],
+      "vocabulary_tags": [
+        "comparison",
+        "description",
+        "places"
+      ],
+      "skill_tags": [
+        "reading",
+        "speaking",
+        "short-writing"
+      ],
+      "grammar_tags": [
+        "comparative-adjectives",
+        "comparison-nego"
+      ],
+      "prerequisites": [
+        "gender-and-adjectives",
+        "where-and-location"
+      ],
+      "examples": [
+        {
+          "target": "Ovaj hotel je veći.",
+          "english": "This hotel is bigger."
+        },
+        {
+          "target": "Ovaj grad je manji od Beograda.",
+          "english": "This city is smaller than Belgrade."
+        },
+        {
+          "target": "Ovaj put je bolji.",
+          "english": "This route is better."
+        }
+      ],
+      "exercises": [
+        {
+          "id": "comparisons-choice",
+          "kind": "choice",
+          "prompt": "What is a common comparative form of dobar (\"good\")?",
+          "options": [
+            {
+              "id": "a",
+              "text": "dobariji",
+              "language": "target"
+            },
+            {
+              "id": "b",
+              "text": "bolji",
+              "language": "target"
+            },
+            {
+              "id": "c",
+              "text": "dobarest",
+              "language": "target"
+            }
+          ],
+          "accepted_answers": [
+            "b"
+          ],
+          "feedback": "Bolji means better and is an irregular comparative of dobar.",
+          "tags": [
+            "comparative-adjectives"
+          ],
+          "answer_language": "target",
+          "prompt_segments": [
+            {
+              "text": "What is a common comparative form of ",
+              "language": "english"
+            },
+            {
+              "text": "dobar",
+              "language": "target"
+            },
+            {
+              "text": " (\"good\")?",
+              "language": "english"
+            }
+          ],
+          "prompt_language": "mixed"
+        },
+        {
+          "id": "comparisons-write",
+          "kind": "short_text",
+          "prompt": "Translate: This hotel is bigger.",
+          "accepted_answers": [
+            "Ovaj hotel je veći",
+            "Ovaj hotel je veći."
+          ],
+          "feedback": "Veći is the comparative form meaning bigger.",
+          "tags": [
+            "comparison",
+            "places"
+          ],
+          "answer_language": "target",
+          "prompt_language": "english"
+        },
+        {
+          "id": "comparisons-join",
+          "kind": "transform",
+          "prompt": "Complete the comparison: Ovaj hotel je veći ___ što sam mislio.",
+          "accepted_answers": [
+            "nego"
+          ],
+          "feedback": "Nego što introduces the clause in this comparison: bigger than I thought.",
+          "tags": [
+            "comparison-nego"
+          ],
+          "answer_language": "target",
+          "prompt_segments": [
+            {
+              "text": "Complete the comparison: ",
+              "language": "english"
+            },
+            {
+              "text": "Ovaj hotel je veći ___ što sam mislio.",
+              "language": "target"
+            }
+          ],
+          "prompt_language": "mixed"
+        }
+      ],
+      "unit_id": "build-conversations",
+      "unit_title": "Build conversations",
+      "unit_objective": "Make requests and connect ideas.",
+      "unit_order": 5
+    },
+    {
+      "id": "frequency-and-adverbs",
+      "order": 24,
+      "level": "A2",
+      "title": "Say how often",
+      "objective": "Use common frequency adverbs and place them naturally in a sentence.",
+      "teaching_note": "Često means often, ponekad means sometimes, and nikad means never. Adverbs can move for emphasis, but a simple position before the verb is a useful starting point. Nikad is usually paired with ne before the verb: Nikad ne kasnim, “I am never late.”",
+      "new_vocabulary": [
+        "često",
+        "ponekad",
+        "nikad",
+        "uvek",
+        "uvijek",
+        "kasniti"
+      ],
+      "review_vocabulary": [
+        "raditi",
+        "živeti",
+        "ne"
+      ],
+      "vocabulary_tags": [
+        "frequency",
+        "routines",
+        "negation"
+      ],
+      "skill_tags": [
+        "reading",
+        "speaking",
+        "short-writing"
+      ],
+      "grammar_tags": [
+        "adverbs-of-frequency",
+        "negative-concord"
+      ],
+      "prerequisites": [
+        "present-tense-routines",
+        "negation-and-yes-no"
+      ],
+      "examples": [
+        {
+          "target": "Često pijem čaj.",
+          "english": "I often drink tea."
+        },
+        {
+          "target": "Ponekad radim kod kuće.",
+          "english": "Sometimes I work at home."
+        },
+        {
+          "target": "Nikad ne kasnim.",
+          "english": "I am never late."
+        }
+      ],
+      "exercises": [
+        {
+          "id": "frequency-and-adverbs-choice",
+          "kind": "choice",
+          "prompt": "Which word means “sometimes”?",
+          "options": [
+            {
+              "id": "a",
+              "text": "nikad",
+              "language": "target"
+            },
+            {
+              "id": "b",
+              "text": "ponekad",
+              "language": "target"
+            },
+            {
+              "id": "c",
+              "text": "često",
+              "language": "target"
+            }
+          ],
+          "accepted_answers": [
+            "b"
+          ],
+          "feedback": "Ponekad means sometimes; često means often and nikad means never.",
+          "tags": [
+            "frequency"
+          ],
+          "answer_language": "target",
+          "prompt_language": "english"
+        },
+        {
+          "id": "frequency-and-adverbs-write",
+          "kind": "short_text",
+          "prompt": "Translate: I often drink tea.",
+          "accepted_answers": [
+            "Često pijem čaj",
+            "Često pijem čaj."
+          ],
+          "feedback": "Često means often, and pijem is “I drink.”",
+          "tags": [
+            "frequency",
+            "routines"
+          ],
+          "answer_language": "target",
+          "prompt_language": "english"
+        },
+        {
+          "id": "frequency-and-adverbs-negate",
+          "kind": "transform",
+          "prompt": "Make the statement say \"I am never late\": Nikad ___ kasnim.",
+          "accepted_answers": [
+            "ne"
+          ],
+          "feedback": "In this common negative pattern, nikad is followed by ne and the verb.",
+          "tags": [
+            "negative-concord",
+            "negation"
+          ],
+          "answer_language": "target",
+          "prompt_segments": [
+            {
+              "text": "Make the statement say \"I am never late\": ",
+              "language": "english"
+            },
+            {
+              "text": "Nikad ___ kasnim.",
+              "language": "target"
+            }
+          ],
+          "prompt_language": "mixed"
+        }
+      ],
+      "unit_id": "build-conversations",
+      "unit_title": "Build conversations",
+      "unit_objective": "Make requests and connect ideas.",
+      "unit_order": 5
+    },
+    {
+      "id": "aspect-first-look",
+      "order": 25,
+      "level": "A2",
+      "title": "Notice completed and ongoing actions",
+      "objective": "Recognize a few imperfective and perfective verb pairs.",
+      "teaching_note": "Many verbs occur in aspectual pairs. Pisati often presents writing as an activity; napisati presents writing as completed. Kupovati and kupiti can contrast repeated or ongoing buying with a completed purchase. Aspect is not simply past versus present; learn each verb with example sentences.",
+      "new_vocabulary": [
+        "pisati",
+        "napisati",
+        "kupovati",
+        "kupiti",
+        "čitati",
+        "pročitati"
+      ],
+      "review_vocabulary": [
+        "danas",
+        "juče",
+        "knjiga"
+      ],
+      "vocabulary_tags": [
+        "actions",
+        "writing",
+        "shopping"
+      ],
+      "skill_tags": [
+        "reading",
+        "conversation",
+        "short-writing"
+      ],
+      "grammar_tags": [
+        "verbal-aspect",
+        "imperfective-perfective-pairs"
+      ],
+      "prerequisites": [
+        "present-tense-routines",
+        "past-tense-yesterday"
+      ],
+      "examples": [
+        {
+          "target": "Pišem poruku.",
+          "english": "I am writing a message."
+        },
+        {
+          "target": "Napisao sam poruku.",
+          "alternatives": [
+            "Napisala sam poruku."
+          ],
+          "english": "I wrote the message.",
+          "note": "The participle agrees with the speaker."
+        },
+        {
+          "target": "Kupio sam hleb.",
+          "alternatives": [
+            "Kupila sam hleb.",
+            "Kupio sam kruh.",
+            "Kupila sam kruh."
+          ],
+          "english": "I bought bread."
+        }
+      ],
+      "exercises": [
+        {
+          "id": "aspect-first-look-choice",
+          "kind": "choice",
+          "prompt": "Which verb commonly presents the action of writing as completed?",
+          "options": [
+            {
+              "id": "a",
+              "text": "pisati",
+              "language": "target"
+            },
+            {
+              "id": "b",
+              "text": "napisati",
+              "language": "target"
+            },
+            {
+              "id": "c",
+              "text": "čitati",
+              "language": "target"
+            }
+          ],
+          "accepted_answers": [
+            "b"
+          ],
+          "feedback": "Napisati commonly presents writing as completed; aspect depends on context.",
+          "tags": [
+            "verbal-aspect"
+          ],
+          "answer_language": "target",
+          "prompt_language": "english"
+        },
+        {
+          "id": "aspect-first-look-translate",
+          "kind": "short_text",
+          "prompt": "Translate: I am writing a message.",
+          "accepted_answers": [
+            "Pišem poruku",
+            "Pišem poruku."
+          ],
+          "feedback": "Pišem is the present form of pisati, commonly used for an ongoing activity.",
+          "tags": [
+            "imperfective-perfective-pairs"
+          ],
+          "answer_language": "target",
+          "prompt_language": "english"
+        },
+        {
+          "id": "aspect-first-look-choose-pair",
+          "kind": "transform",
+          "prompt": "Give the common perfective partner of kupovati.",
+          "accepted_answers": [
+            "kupiti"
+          ],
+          "feedback": "Kupiti is a common perfective partner of kupovati.",
+          "tags": [
+            "verbal-aspect",
+            "shopping"
+          ],
+          "answer_language": "target",
+          "prompt_language": "mixed",
+          "prompt_segments": [
+            {
+              "text": "Give the common perfective partner of ",
+              "language": "english"
+            },
+            {
+              "text": "kupovati",
+              "language": "target"
+            },
+            {
+              "text": ".",
+              "language": "english"
+            }
+          ]
+        }
+      ],
+      "unit_id": "build-conversations",
+      "unit_title": "Build conversations",
+      "unit_objective": "Make requests and connect ideas.",
+      "unit_order": 5
+    },
+    {
+      "id": "connect-ideas",
+      "order": 26,
+      "level": "A2",
+      "title": "Connect ideas with because and if",
+      "objective": "Join short clauses with common conjunctions.",
+      "teaching_note": "I means and, ali means but, jer means because, and ako means if. Kad or kada can mean when. Serbian and Montenegrin often use da + present in subordinate clauses where English uses an infinitive, as in Želim da idem, “I want to go.”",
+      "new_vocabulary": [
+        "i",
+        "ali",
+        "jer",
+        "ako",
+        "kad",
+        "kada",
+        "da"
+      ],
+      "review_vocabulary": [
+        "želim",
+        "idem",
+        "voda"
+      ],
+      "vocabulary_tags": [
+        "connecting-ideas",
+        "reasons",
+        "conditions"
+      ],
+      "skill_tags": [
+        "reading",
+        "conversation",
+        "short-writing"
+      ],
+      "grammar_tags": [
+        "conjunctions",
+        "subordinate-clauses",
+        "da-construction",
+        "informal-address"
+      ],
+      "prerequisites": [
+        "can-want-and-need",
+        "present-tense-routines"
+      ],
+      "examples": [
+        {
+          "target": "Želim da idem, ali nemam vremena.",
+          "english": "I want to go, but I don't have time."
+        },
+        {
+          "target": "Ostajem kod kuće jer pada kiša.",
+          "english": "I am staying home because it is raining."
+        },
+        {
+          "target": "Ako imaš vremena, dođi.",
+          "english": "If you have time, come."
+        }
+      ],
+      "exercises": [
+        {
+          "id": "connect-ideas-choice",
+          "kind": "choice",
+          "prompt": "Which word means “because”?",
+          "options": [
+            {
+              "id": "a",
+              "text": "jer",
+              "language": "target"
+            },
+            {
+              "id": "b",
+              "text": "ali",
+              "language": "target"
+            },
+            {
+              "id": "c",
+              "text": "i",
+              "language": "target"
+            }
+          ],
+          "accepted_answers": [
+            "a"
+          ],
+          "feedback": "Jer introduces a reason and means because.",
+          "tags": [
+            "reasons",
+            "conjunctions"
+          ],
+          "answer_language": "target",
+          "prompt_language": "english"
+        },
+        {
+          "id": "connect-ideas-join",
+          "kind": "transform",
+          "prompt": "Join the ideas with ali: Želim da idem. Nemam vremena.",
+          "accepted_answers": [
+            "Želim da idem, ali nemam vremena",
+            "Želim da idem, ali nemam vremena."
+          ],
+          "feedback": "Ali means but and links the contrasting ideas.",
+          "tags": [
+            "connecting-ideas"
+          ],
+          "answer_language": "target",
+          "prompt_segments": [
+            {
+              "text": "Join the ideas with ",
+              "language": "english"
+            },
+            {
+              "text": "ali",
+              "language": "target"
+            },
+            {
+              "text": ": ",
+              "language": "english"
+            },
+            {
+              "text": "Želim da idem. Nemam vremena.",
+              "language": "target"
+            }
+          ],
+          "prompt_language": "mixed"
+        },
+        {
+          "id": "connect-ideas-condition",
+          "kind": "short_text",
+          "prompt": "Translate: If you have time, come. Use informal singular.",
+          "accepted_answers": [
+            "Ako imaš vremena, dođi",
+            "Ako imaš vremena, dođi."
+          ],
+          "feedback": "Ako means if; imaš and dođi address one person informally.",
+          "tags": [
+            "conditions",
+            "informal-address"
+          ],
+          "answer_language": "target",
+          "prompt_language": "english"
+        }
+      ],
+      "unit_id": "put-it-together",
+      "unit_title": "Put it together",
+      "unit_objective": "Use what you know in practical conversations.",
+      "unit_order": 6
+    },
+    {
+      "id": "relative-clauses",
+      "order": 27,
+      "level": "A2",
+      "title": "Add detail with koji",
+      "objective": "Use a simple relative clause to identify a person or thing.",
+      "teaching_note": "Koji, koja and koje introduce relative clauses and agree with the noun they describe. The form also changes for grammatical case, so treat these first sentences as patterns, not a complete paradigm. A relative clause adds information about a noun.",
+      "new_vocabulary": [
+        "koji",
+        "koja",
+        "koje",
+        "živeti",
+        "živjeti",
+        "poznajem"
+      ],
+      "review_vocabulary": [
+        "čovek",
+        "čovjek",
+        "grad",
+        "ovaj"
+      ],
+      "vocabulary_tags": [
+        "people",
+        "description",
+        "places",
+        "regional-variation"
+      ],
+      "skill_tags": [
+        "reading",
+        "short-writing",
+        "conversation"
+      ],
+      "grammar_tags": [
+        "relative-clauses",
+        "relative-pronouns",
+        "agreement"
+      ],
+      "prerequisites": [
+        "gender-and-adjectives",
+        "connect-ideas"
+      ],
+      "examples": [
+        {
+          "target": "To je čovek koji živi ovde.",
+          "alternatives": [
+            "To je čovjek koji živi ovdje."
+          ],
+          "english": "That is the man who lives here."
+        },
+        {
+          "target": "To je žena koju poznajem.",
+          "english": "That is the woman I know."
+        },
+        {
+          "target": "Ovo je mesto koje volim.",
+          "alternatives": [
+            "Ovo je mjesto koje volim."
+          ],
+          "english": "This is a place that I like."
+        }
+      ],
+      "exercises": [
+        {
+          "id": "relative-clauses-choice",
+          "kind": "choice",
+          "prompt": "Choose a common form to describe žena: To je žena ___ poznajem.",
+          "options": [
+            {
+              "id": "a",
+              "text": "koju",
+              "language": "target"
+            },
+            {
+              "id": "b",
+              "text": "koji",
+              "language": "target"
+            },
+            {
+              "id": "c",
+              "text": "koje",
+              "language": "target"
+            }
+          ],
+          "accepted_answers": [
+            "a"
+          ],
+          "feedback": "Koju is the feminine accusative form needed for the object of poznajem.",
+          "tags": [
+            "relative-pronouns",
+            "agreement"
+          ],
+          "answer_language": "target",
+          "prompt_segments": [
+            {
+              "text": "Choose a common form to describe ",
+              "language": "english"
+            },
+            {
+              "text": "žena",
+              "language": "target"
+            },
+            {
+              "text": ": ",
+              "language": "english"
+            },
+            {
+              "text": "To je žena ___ poznajem.",
+              "language": "target"
+            }
+          ],
+          "prompt_language": "mixed"
+        },
+        {
+          "id": "relative-clauses-write",
+          "kind": "short_text",
+          "prompt": "Translate: That is the man who lives here. Either common regional spelling is accepted.",
+          "accepted_answers": [
+            "To je čovek koji živi ovde",
+            "To je čovek koji živi ovde.",
+            "To je čovjek koji živi ovdje",
+            "To je čovjek koji živi ovdje."
+          ],
+          "feedback": "Koji agrees with the masculine noun čovek/čovjek; ovde/ovdje vary by pronunciation pattern.",
+          "tags": [
+            "relative-clauses",
+            "regional-variation"
+          ],
+          "answer_language": "target",
+          "prompt_language": "english"
+        },
+        {
+          "id": "relative-clauses-explain",
+          "kind": "dialogue_response",
+          "prompt": "What information does a relative clause add?",
+          "accepted_answers": [
+            "It adds information about a noun.",
+            "Information about a noun."
+          ],
+          "feedback": "A relative clause identifies or describes a noun, as koji živi ovde describes a man.",
+          "tags": [
+            "relative-clauses"
+          ],
+          "answer_language": "english",
+          "prompt_language": "english"
+        }
+      ],
+      "unit_id": "put-it-together",
+      "unit_title": "Put it together",
+      "unit_objective": "Use what you know in practical conversations.",
+      "unit_order": 6
+    },
+    {
+      "id": "polite-conditional-requests",
+      "order": 28,
+      "level": "B1",
+      "title": "Soften a request",
+      "objective": "Use a polite conditional question and a simple if-clause.",
+      "teaching_note": "A conditional can soften a request. Da li biste mogli da ponovite? means “Could you repeat that?” Biste is the polite conditional form of biti. Ako imam vremena, doći ću means “If I have time, I will come”; the future form appears in the main clause.",
+      "new_vocabulary": [
+        "biste",
+        "mogli",
+        "ponoviti",
+        "ako",
+        "vremena"
+      ],
+      "review_vocabulary": [
+        "mogu",
+        "molim vas",
+        "doći",
+        "sutra"
+      ],
+      "vocabulary_tags": [
+        "polite-requests",
+        "conditions",
+        "communication"
+      ],
+      "skill_tags": [
+        "reading",
+        "conversation",
+        "short-writing"
+      ],
+      "grammar_tags": [
+        "conditional",
+        "polite-questions",
+        "future-i"
+      ],
+      "prerequisites": [
+        "future-plans",
+        "connect-ideas",
+        "polite-imperatives"
+      ],
+      "examples": [
+        {
+          "target": "Da li biste mogli da ponovite?",
+          "english": "Could you repeat that?"
+        },
+        {
+          "target": "Ako imam vremena, doći ću.",
+          "english": "If I have time, I will come."
+        },
+        {
+          "target": "Da li biste mogli da govorite sporije?",
+          "english": "Could you speak more slowly?"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "polite-conditional-requests-choice",
+          "kind": "choice",
+          "prompt": "Which is a polite way to ask someone to repeat?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Da li biste mogli da ponovite?",
+              "language": "target"
+            },
+            {
+              "id": "b",
+              "text": "Ponavljaš juče.",
+              "language": "target"
+            },
+            {
+              "id": "c",
+              "text": "Ti ponoviti.",
+              "language": "target"
+            }
+          ],
+          "accepted_answers": [
+            "a"
+          ],
+          "feedback": "Biste mogli is a polite conditional request.",
+          "tags": [
+            "conditional",
+            "polite-requests"
+          ],
+          "answer_language": "target",
+          "prompt_language": "english"
+        },
+        {
+          "id": "polite-conditional-requests-write",
+          "kind": "short_text",
+          "prompt": "Complete the polite request: Da li biste mogli da ___ sporije?",
+          "accepted_answers": [
+            "govorite"
+          ],
+          "feedback": "Govorite is the polite or plural form used in this request.",
+          "tags": [
+            "polite-questions"
+          ],
+          "answer_language": "target",
+          "prompt_segments": [
+            {
+              "text": "Complete the polite request: ",
+              "language": "english"
+            },
+            {
+              "text": "Da li biste mogli da ___ sporije?",
+              "language": "target"
+            }
+          ],
+          "prompt_language": "mixed"
+        },
+        {
+          "id": "polite-conditional-requests-condition",
+          "kind": "transform",
+          "prompt": "Complete: Ako imam vremena, ___ ću. (I will come.)",
+          "accepted_answers": [
+            "doći"
+          ],
+          "feedback": "Doći ću is a future form meaning I will come.",
+          "tags": [
+            "conditions",
+            "future-i"
+          ],
+          "answer_language": "target",
+          "prompt_segments": [
+            {
+              "text": "Complete: ",
+              "language": "english"
+            },
+            {
+              "text": "Ako imam vremena, ___ ću.",
+              "language": "target"
+            },
+            {
+              "text": " (I will come.)",
+              "language": "english"
+            }
+          ],
+          "prompt_language": "mixed"
+        }
+      ],
+      "unit_id": "put-it-together",
+      "unit_title": "Put it together",
+      "unit_objective": "Use what you know in practical conversations.",
+      "unit_order": 6
+    },
+    {
+      "id": "travel-review-dialogue",
+      "order": 29,
+      "level": "B1",
+      "title": "Review: ask for help while traveling",
+      "objective": "Combine greetings, directions, polite requests and useful variants.",
+      "teaching_note": "Use the phrases together rather than as isolated translations. A traveler can greet someone, ask where a station is, request slower speech and thank the helper. Gde/gdje and levo/lijevo are useful Ekavian/Ijekavian pairs; both are understood widely.",
+      "new_vocabulary": [
+        "pomoć",
+        "ponoviti",
+        "sporo",
+        "stanica"
+      ],
+      "review_vocabulary": [
+        "dobar dan",
+        "gde",
+        "gdje",
+        "govorite",
+        "molim",
+        "hvala"
+      ],
+      "vocabulary_tags": [
+        "travel",
+        "directions",
+        "politeness",
+        "review"
+      ],
+      "skill_tags": [
+        "reading",
+        "conversation",
+        "speaking",
+        "communication"
+      ],
+      "grammar_tags": [
+        "questions",
+        "imperative",
+        "regional-variation"
+      ],
+      "prerequisites": [
+        "transport-and-directions",
+        "polite-imperatives",
+        "polite-conditional-requests"
+      ],
+      "examples": [
+        {
+          "target": "Dobar dan. Gde je stanica?",
+          "alternatives": [
+            "Dobar dan. Gdje je stanica?"
+          ],
+          "english": "Good day. Where is the station?"
+        },
+        {
+          "target": "Možete li da govorite sporije?",
+          "english": "Could you speak more slowly?"
+        },
+        {
+          "target": "Hvala vam na pomoći.",
+          "english": "Thank you for your help."
+        }
+      ],
+      "exercises": [
+        {
+          "id": "travel-review-dialogue-choice",
+          "kind": "choice",
+          "prompt": "You need the station. Which question is useful?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Gde je stanica?",
+              "language": "target"
+            },
+            {
+              "id": "b",
+              "text": "Koštaju li stanica?",
+              "language": "target"
+            },
+            {
+              "id": "c",
+              "text": "Dobar sam stanica.",
+              "language": "target"
+            }
+          ],
+          "accepted_answers": [
+            "a"
+          ],
+          "feedback": "Gde je stanica? asks where the station is; Gdje is also accepted.",
+          "tags": [
+            "travel",
+            "directions"
+          ],
+          "answer_language": "target",
+          "prompt_language": "english"
+        },
+        {
+          "id": "travel-review-dialogue-ask",
+          "kind": "dialogue_response",
+          "prompt": "Politely ask a person to speak more slowly.",
+          "accepted_answers": [
+            "Možete li da govorite sporije",
+            "Možete li da govorite sporije?"
+          ],
+          "feedback": "Možete li da... is a polite question pattern.",
+          "tags": [
+            "politeness",
+            "communication"
+          ],
+          "answer_language": "target",
+          "prompt_language": "english"
+        },
+        {
+          "id": "travel-review-dialogue-thanks",
+          "kind": "short_text",
+          "prompt": "Thank the person for their help.",
+          "accepted_answers": [
+            "Hvala vam na pomoći",
+            "Hvala vam na pomoći."
+          ],
+          "feedback": "Hvala vam na pomoći means thank you for your help.",
+          "tags": [
+            "politeness",
+            "review"
+          ],
+          "answer_language": "target",
+          "prompt_language": "english"
+        }
+      ],
+      "unit_id": "put-it-together",
+      "unit_title": "Put it together",
+      "unit_objective": "Use what you know in practical conversations.",
+      "unit_order": 6
+    },
+    {
+      "id": "weekend-capstone",
+      "order": 30,
+      "level": "B1",
+      "title": "Capstone: plan a weekend",
+      "objective": "Use a short conversation to make plans, compare options and agree on a time.",
+      "teaching_note": "Combine future plans, time expressions, places, comparisons and questions. Keep the conversation simple: suggest a place, ask when the other person is free, make a plan, and confirm it. Reuse the forms you know; variants such as sjutra/sutra remain acceptable.",
+      "new_vocabulary": [
+        "slobodan",
+        "slobodna",
+        "možda",
+        "dogovoriti se",
+        "vikend"
+      ],
+      "review_vocabulary": [
+        "sutra",
+        "sjutra",
+        "ići",
+        "grad",
+        "bolji",
+        "kada"
+      ],
+      "vocabulary_tags": [
+        "plans",
+        "weekend",
+        "conversation",
+        "review",
+        "regional-variation"
+      ],
+      "skill_tags": [
+        "reading",
+        "conversation",
+        "short-writing"
+      ],
+      "grammar_tags": [
+        "future-i",
+        "questions",
+        "comparisons",
+        "reflexive-clitic",
+        "adjective-agreement",
+        "movement"
+      ],
+      "prerequisites": [
+        "future-plans",
+        "comparisons",
+        "connect-ideas",
+        "reflexive-daily-actions"
+      ],
+      "examples": [
+        {
+          "target": "Jesi li slobodna sutra?",
+          "alternatives": [
+            "Jesi li slobodan sutra?"
+          ],
+          "english": "Are you free tomorrow?",
+          "note": "The adjective agrees with the person addressed."
+        },
+        {
+          "target": "Možemo da idemo u grad.",
+          "english": "We can go to the city."
+        },
+        {
+          "target": "Dogovoreno. Vidimo se sjutra.",
+          "alternatives": [
+            "Dogovoreno. Vidimo se sutra."
+          ],
+          "english": "Agreed. See you tomorrow."
+        }
+      ],
+      "exercises": [
+        {
+          "id": "weekend-capstone-choice",
+          "kind": "choice",
+          "prompt": "Which question asks if a woman is free tomorrow?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Jesi li slobodna sutra?",
+              "language": "target"
+            },
+            {
+              "id": "b",
+              "text": "Jesi li slobodan juče?",
+              "language": "target"
+            },
+            {
+              "id": "c",
+              "text": "Slobodna li juče?",
+              "language": "target"
+            }
+          ],
+          "accepted_answers": [
+            "a"
+          ],
+          "feedback": "Slobodna agrees with a woman; slobodan is the masculine form. Sutra means tomorrow.",
+          "tags": [
+            "plans",
+            "adjective-agreement"
+          ],
+          "answer_language": "target",
+          "prompt_language": "english"
+        },
+        {
+          "id": "weekend-capstone-suggest",
+          "kind": "dialogue_response",
+          "prompt": "Suggest: “We can go to the city.”",
+          "accepted_answers": [
+            "Možemo da idemo u grad",
+            "Možemo da idemo u grad."
+          ],
+          "feedback": "Možemo means we can; u grad expresses movement into the city.",
+          "tags": [
+            "plans",
+            "movement"
+          ],
+          "answer_language": "target",
+          "prompt_language": "english"
+        },
+        {
+          "id": "weekend-capstone-confirm",
+          "kind": "short_text",
+          "prompt": "Confirm the plan and say \"See you tomorrow,\" using either common form.",
+          "accepted_answers": [
+            "Dogovoreno. Vidimo se sutra.",
+            "Dogovoreno. Vidimo se sjutra."
+          ],
+          "feedback": "Both sutra and sjutra are used. The phrase vidimo se is a common reciprocal farewell.",
+          "tags": [
+            "plans",
+            "review",
+            "regional-variation"
+          ],
+          "answer_language": "target",
+          "prompt_language": "english"
+        }
+      ],
+      "unit_id": "put-it-together",
+      "unit_title": "Put it together",
+      "unit_objective": "Use what you know in practical conversations.",
+      "unit_order": 6
+    },
+    {
+      "id": "checking-in",
+      "order": 31,
+      "level": "A1",
+      "title": "Check in",
+      "objective": "Ask for a room and a key.",
+      "teaching_note": "Imate li…? is a polite way to ask whether someone has something. Jednu sobu is the form used when requesting one room.",
+      "new_vocabulary": [
+        "soba",
+        "ključ",
+        "hotel"
+      ],
+      "review_vocabulary": [],
+      "vocabulary_tags": [
+        "soba",
+        "ključ",
+        "hotel"
+      ],
+      "skill_tags": [
+        "reading",
+        "speaking",
+        "short-writing"
+      ],
+      "grammar_tags": [],
+      "prerequisites": [
+        "weekend-capstone"
+      ],
+      "examples": [
+        {
+          "target": "Dobar dan. Imate li slobodnu sobu?",
+          "english": "Good day. Do you have a room available?"
+        },
+        {
+          "target": "Da. Evo ključa.",
+          "english": "Yes. Here is the key."
+        },
+        {
+          "target": "Hvala vam.",
+          "english": "Thank you."
+        }
+      ],
+      "exercises": [
+        {
+          "id": "checking-in-choice",
+          "kind": "choice",
+          "prompt": "How can you ask for a room?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Jednu sobu, molim.",
+              "language": "target"
+            },
+            {
+              "id": "b",
+              "text": "Jednu kafu, molim.",
+              "language": "target"
+            },
+            {
+              "id": "c",
+              "text": "Račun, molim.",
+              "language": "target"
+            }
+          ],
+          "accepted_answers": [
+            "a"
+          ],
+          "feedback": "Jednu sobu, molim asks for one room.",
+          "tags": [
+            "soba",
+            "ključ",
+            "hotel"
+          ],
+          "answer_language": "target",
+          "prompt_language": "english"
+        },
+        {
+          "id": "checking-in-write",
+          "kind": "short_text",
+          "prompt": "Write “One room, please.”",
+          "accepted_answers": [
+            "Jednu sobu, molim",
+            "Jednu sobu molim"
+          ],
+          "feedback": "Jednu sobu, molim asks for one room.",
+          "tags": [
+            "soba",
+            "ključ",
+            "hotel"
+          ],
+          "answer_language": "target",
+          "prompt_language": "english"
+        },
+        {
+          "id": "checking-in-meaning",
+          "kind": "short_text",
+          "prompt": "Evo ključa.",
+          "accepted_answers": [
+            "Here is the key",
+            "Here's the key"
+          ],
+          "feedback": "Evo ključa means “Here is the key.”",
+          "tags": [
+            "soba",
+            "ključ",
+            "hotel"
+          ],
+          "answer_language": "english",
+          "prompt_language": "target"
+        }
+      ],
+      "unit_id": "out-and-about",
+      "unit_title": "Out and about",
+      "unit_objective": "Handle a stay, shopping and asking for help.",
+      "unit_order": 7
+    },
+    {
+      "id": "shopping-and-payment",
+      "order": 32,
+      "level": "A1",
+      "title": "At the shop",
+      "objective": "Ask the price and pay by card.",
+      "teaching_note": "Koliko košta? asks the price. Mogu li…? is a polite way to ask if you can do something.",
+      "new_vocabulary": [
+        "prodavnica",
+        "gotovina",
+        "kartica"
+      ],
+      "review_vocabulary": [],
+      "vocabulary_tags": [
+        "prodavnica",
+        "gotovina",
+        "kartica"
+      ],
+      "skill_tags": [
+        "reading",
+        "speaking",
+        "short-writing"
+      ],
+      "grammar_tags": [],
+      "prerequisites": [
+        "checking-in"
+      ],
+      "examples": [
+        {
+          "target": "Koliko košta?",
+          "english": "How much does it cost?"
+        },
+        {
+          "target": "Pet eura.",
+          "english": "Five euros."
+        },
+        {
+          "target": "Mogu li platiti karticom?",
+          "english": "Can I pay by card?"
+        },
+        {
+          "target": "Da, možete.",
+          "english": "Yes, you can."
+        }
+      ],
+      "exercises": [
+        {
+          "id": "shopping-and-payment-choice",
+          "kind": "choice",
+          "prompt": "Which question asks to pay by card?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Mogu li platiti karticom?",
+              "language": "target"
+            },
+            {
+              "id": "b",
+              "text": "Gdje je stanica?",
+              "language": "target"
+            },
+            {
+              "id": "c",
+              "text": "Kako se zovete?",
+              "language": "target"
+            }
+          ],
+          "accepted_answers": [
+            "a"
+          ],
+          "feedback": "Koliko košta? asks how much something costs.",
+          "tags": [
+            "prodavnica",
+            "gotovina",
+            "kartica"
+          ],
+          "answer_language": "target",
+          "prompt_language": "english"
+        },
+        {
+          "id": "shopping-and-payment-write",
+          "kind": "short_text",
+          "prompt": "Write “How much does it cost?”",
+          "accepted_answers": [
+            "Koliko košta",
+            "Koliko to košta"
+          ],
+          "feedback": "Koliko košta? asks how much something costs.",
+          "tags": [
+            "prodavnica",
+            "gotovina",
+            "kartica"
+          ],
+          "answer_language": "target",
+          "prompt_language": "english"
+        },
+        {
+          "id": "shopping-and-payment-meaning",
+          "kind": "short_text",
+          "prompt": "Pet eura.",
+          "accepted_answers": [
+            "Five euros",
+            "Five euro"
+          ],
+          "feedback": "Pet eura means “five euros.”",
+          "tags": [
+            "prodavnica",
+            "gotovina",
+            "kartica"
+          ],
+          "answer_language": "english",
+          "prompt_language": "target"
+        }
+      ],
+      "unit_id": "out-and-about",
+      "unit_title": "Out and about",
+      "unit_objective": "Handle a stay, shopping and asking for help.",
+      "unit_order": 7
+    },
+    {
+      "id": "finding-a-pharmacy",
+      "order": 33,
+      "level": "A1",
+      "title": "Find a pharmacy",
+      "objective": "Ask where a pharmacy is and understand a direction.",
+      "teaching_note": "Gdje je…? asks where something is; Serbian Ekavian also uses Gde je…? Desno means right.",
+      "new_vocabulary": [
+        "apoteka",
+        "desno",
+        "blizu"
+      ],
+      "review_vocabulary": [],
+      "vocabulary_tags": [
+        "apoteka",
+        "desno",
+        "blizu"
+      ],
+      "skill_tags": [
+        "reading",
+        "speaking",
+        "short-writing"
+      ],
+      "grammar_tags": [],
+      "prerequisites": [
+        "shopping-and-payment"
+      ],
+      "examples": [
+        {
+          "target": "Izvinite, gdje je apoteka?",
+          "english": "Excuse me, where is the pharmacy?"
+        },
+        {
+          "target": "Apoteka je blizu, desno.",
+          "english": "The pharmacy is nearby, on the right."
+        },
+        {
+          "target": "Hvala!",
+          "english": "Thank you!"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "finding-a-pharmacy-choice",
+          "kind": "choice",
+          "prompt": "Which word means “right” as a direction?",
+          "options": [
+            {
+              "id": "a",
+              "text": "desno",
+              "language": "target"
+            },
+            {
+              "id": "b",
+              "text": "lijevo",
+              "language": "target"
+            },
+            {
+              "id": "c",
+              "text": "daleko",
+              "language": "target"
+            }
+          ],
+          "accepted_answers": [
+            "a"
+          ],
+          "feedback": "Gdje je apoteka? asks where the pharmacy is. Gde is the Ekavian form.",
+          "tags": [
+            "apoteka",
+            "desno",
+            "blizu"
+          ],
+          "answer_language": "target",
+          "prompt_language": "english"
+        },
+        {
+          "id": "finding-a-pharmacy-write",
+          "kind": "short_text",
+          "prompt": "Write “Where is the pharmacy?”",
+          "accepted_answers": [
+            "Gdje je apoteka",
+            "Gde je apoteka"
+          ],
+          "feedback": "Gdje je apoteka? asks where the pharmacy is. Gde is the Ekavian form.",
+          "tags": [
+            "apoteka",
+            "desno",
+            "blizu"
+          ],
+          "answer_language": "target",
+          "prompt_language": "english"
+        },
+        {
+          "id": "finding-a-pharmacy-meaning",
+          "kind": "short_text",
+          "prompt": "Apoteka je blizu.",
+          "accepted_answers": [
+            "The pharmacy is nearby",
+            "The pharmacy is near",
+            "The pharmacy is close"
+          ],
+          "feedback": "Apoteka je blizu means “The pharmacy is nearby.”",
+          "tags": [
+            "apoteka",
+            "desno",
+            "blizu"
+          ],
+          "answer_language": "english",
+          "prompt_language": "target"
+        }
+      ],
+      "unit_id": "out-and-about",
+      "unit_title": "Out and about",
+      "unit_objective": "Handle a stay, shopping and asking for help.",
+      "unit_order": 7
+    },
+    {
+      "id": "asking-for-help",
+      "order": 34,
+      "level": "A1",
+      "title": "Ask for help",
+      "objective": "Say you need help or a doctor.",
+      "teaching_note": "Treba mi… means “I need…”. Izvinite can politely get someone’s attention.",
+      "new_vocabulary": [
+        "pomoć",
+        "doktor",
+        "bolnica"
+      ],
+      "review_vocabulary": [],
+      "vocabulary_tags": [
+        "pomoć",
+        "doktor",
+        "bolnica"
+      ],
+      "skill_tags": [
+        "reading",
+        "speaking",
+        "short-writing"
+      ],
+      "grammar_tags": [],
+      "prerequisites": [
+        "finding-a-pharmacy"
+      ],
+      "examples": [
+        {
+          "target": "Izvinite, treba mi pomoć.",
+          "english": "Excuse me, I need help."
+        },
+        {
+          "target": "Treba mi doktor.",
+          "english": "I need a doctor."
+        },
+        {
+          "target": "Gdje je bolnica?",
+          "english": "Where is the hospital?"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "asking-for-help-choice",
+          "kind": "choice",
+          "prompt": "Which sentence means “I need a doctor”?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Treba mi doktor.",
+              "language": "target"
+            },
+            {
+              "id": "b",
+              "text": "Treba mi račun.",
+              "language": "target"
+            },
+            {
+              "id": "c",
+              "text": "Imam kartu.",
+              "language": "target"
+            }
+          ],
+          "accepted_answers": [
+            "a"
+          ],
+          "feedback": "Treba mi pomoć means “I need help.”",
+          "tags": [
+            "pomoć",
+            "doktor",
+            "bolnica"
+          ],
+          "answer_language": "target",
+          "prompt_language": "english"
+        },
+        {
+          "id": "asking-for-help-write",
+          "kind": "short_text",
+          "prompt": "Write “I need help.”",
+          "accepted_answers": [
+            "Treba mi pomoć"
+          ],
+          "feedback": "Treba mi pomoć means “I need help.”",
+          "tags": [
+            "pomoć",
+            "doktor",
+            "bolnica"
+          ],
+          "answer_language": "target",
+          "prompt_language": "english"
+        },
+        {
+          "id": "asking-for-help-meaning",
+          "kind": "short_text",
+          "prompt": "Treba mi doktor.",
+          "accepted_answers": [
+            "I need a doctor",
+            "I need the doctor"
+          ],
+          "feedback": "Treba mi doktor means “I need a doctor.”",
+          "tags": [
+            "pomoć",
+            "doktor",
+            "bolnica"
+          ],
+          "answer_language": "english",
+          "prompt_language": "target"
+        }
+      ],
+      "unit_id": "out-and-about",
+      "unit_title": "Out and about",
+      "unit_objective": "Handle a stay, shopping and asking for help.",
+      "unit_order": 7
+    },
+    {
+      "id": "travel-conversation",
+      "order": 35,
+      "level": "A1",
+      "title": "A day out",
+      "objective": "Combine a question, direction and polite thanks.",
+      "teaching_note": "Use Gdje je…? to ask for a place, and Hvala to thank the person who helps you.",
+      "new_vocabulary": [
+        "autobus",
+        "stanica",
+        "karta"
+      ],
+      "review_vocabulary": [],
+      "vocabulary_tags": [
+        "autobus",
+        "stanica",
+        "karta"
+      ],
+      "skill_tags": [
+        "reading",
+        "speaking",
+        "short-writing"
+      ],
+      "grammar_tags": [],
+      "prerequisites": [
+        "asking-for-help"
+      ],
+      "examples": [
+        {
+          "target": "Izvinite, gdje je autobuska stanica?",
+          "english": "Excuse me, where is the bus station?"
+        },
+        {
+          "target": "Pravo, pa desno.",
+          "english": "Straight ahead, then right."
+        },
+        {
+          "target": "Hvala vam!",
+          "english": "Thank you!"
+        },
+        {
+          "target": "Molim.",
+          "english": "You are welcome."
+        }
+      ],
+      "exercises": [
+        {
+          "id": "travel-conversation-choice",
+          "kind": "choice",
+          "prompt": "Which answer means “straight ahead, then right”?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Pravo, pa desno.",
+              "language": "target"
+            },
+            {
+              "id": "b",
+              "text": "Lijevo, pa pravo.",
+              "language": "target"
+            },
+            {
+              "id": "c",
+              "text": "Sjutra, molim.",
+              "language": "target"
+            }
+          ],
+          "accepted_answers": [
+            "a"
+          ],
+          "feedback": "Hvala and Hvala vam both express thanks.",
+          "tags": [
+            "autobus",
+            "stanica",
+            "karta"
+          ],
+          "answer_language": "target",
+          "prompt_language": "english"
+        },
+        {
+          "id": "travel-conversation-write",
+          "kind": "short_text",
+          "prompt": "Write “Thank you.”",
+          "accepted_answers": [
+            "Hvala",
+            "Hvala vam"
+          ],
+          "feedback": "Hvala and Hvala vam both express thanks.",
+          "tags": [
+            "autobus",
+            "stanica",
+            "karta"
+          ],
+          "answer_language": "target",
+          "prompt_language": "english"
+        },
+        {
+          "id": "travel-conversation-meaning",
+          "kind": "short_text",
+          "prompt": "Jednu kartu, molim.",
+          "accepted_answers": [
+            "One ticket please",
+            "A ticket please"
+          ],
+          "feedback": "Jednu kartu, molim means “One ticket, please.”",
+          "tags": [
+            "autobus",
+            "stanica",
+            "karta"
+          ],
+          "answer_language": "english",
+          "prompt_language": "target"
+        }
+      ],
+      "unit_id": "out-and-about",
+      "unit_title": "Out and about",
+      "unit_objective": "Handle a stay, shopping and asking for help.",
+      "unit_order": 7
+    }
+  ]
+}

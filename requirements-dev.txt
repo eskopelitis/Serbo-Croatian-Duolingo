@@ -1,0 +1,3 @@
+-r requirements.txt
+# Optional browser checks in tools/verify_sc_*.py (they drive your installed Edge).
+playwright==1.65.2
